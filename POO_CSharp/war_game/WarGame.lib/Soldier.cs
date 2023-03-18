@@ -1,6 +1,6 @@
 ﻿namespace WarGame.lib;
 
-/* Esta clase es abstract */
+/* Esta clase es abstracta para que  */
 public abstract class Soldier
 {
     protected abstract void Walk();
