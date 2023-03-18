@@ -1,5 +1,5 @@
 ﻿namespace WarGame.lib;
-public class Class1
+public class Soldier
 {
-
+    
 }
