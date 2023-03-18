@@ -2,5 +2,8 @@ namespace WarGame.lib;
 
 public class LightInfantry
 {
-    public void Shoot()
+    /* Encapsulamos el comportamiento de nuestros metodos */
+    public void Shoot(){
+
+    }
 }
