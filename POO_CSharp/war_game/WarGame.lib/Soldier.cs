@@ -4,7 +4,7 @@
 public abstract class Soldier
 {
     /* Le decimos a los metodos que sean protected para que  puedan ser accedidos por
-        la clase que heredan 
+        la clase que heredan y abstract para que no se puedan instanciar
     */
     protected abstract void Walk();
 
