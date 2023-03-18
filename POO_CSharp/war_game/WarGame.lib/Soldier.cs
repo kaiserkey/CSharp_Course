@@ -20,3 +20,6 @@ public interface ISoldier{
     void Walk();
     void Run();
 }
+/* 
+    Las clases abstract se pueden heredar y las in
+ */
