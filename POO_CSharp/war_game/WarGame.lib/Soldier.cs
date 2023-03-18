@@ -13,5 +13,7 @@ public abstract class Soldier
 }
 
 /* 
-    Otra manera de abstraer un concepto 
+    Otra manera de abstraer un concepto es con interfaces
  */
+
+ public interface ISoldier
