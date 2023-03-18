@@ -1,0 +1,12 @@
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/bin/Debug/net7.0/WarGame.lib.deps.json
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/bin/Debug/net7.0/WarGame.lib.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/bin/Debug/net7.0/WarGame.lib.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/refint/WarGame.lib.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/WarGame.lib.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/war_game/WarGame.lib/obj/Debug/net7.0/ref/WarGame.lib.dll
