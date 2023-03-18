@@ -1,7 +1,6 @@
-namespace WarGame.lib
+namespace WarGame.lib;
+
+public class HeavyInfantry
 {
-    public class HeavyInfantry
-    {
-        
-    }
+    
 }
