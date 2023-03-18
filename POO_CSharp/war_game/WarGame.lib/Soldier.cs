@@ -10,7 +10,6 @@ public abstract class Soldier
     protected abstract void Walk();
     //Escribir el comportamiento basico de un soldado
 
-
     protected abstract void Run();
 }
 
