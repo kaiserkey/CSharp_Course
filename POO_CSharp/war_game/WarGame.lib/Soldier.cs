@@ -8,7 +8,7 @@ public abstract class Soldier
         que se deben reescribir
     */
     protected abstract void Walk(){
-        //Escribir el concepto basico
+        //Escribir el comportamiento basico de un soldado
     }
 
     protected abstract void Run();
