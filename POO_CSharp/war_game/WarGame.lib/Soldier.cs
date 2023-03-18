@@ -1,7 +1,7 @@
 ﻿namespace WarGame.lib;
 public abstract class Soldier
 {
-    protected abstract void alk();
+    protected abstract void Walk();
 
-    protected abstract void Run()
+    protected abstract void Run();
 }
