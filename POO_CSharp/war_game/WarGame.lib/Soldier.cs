@@ -7,9 +7,9 @@ public abstract class Soldier
         la clase que heredan y abstract para que no se puedan instanciar indicando
         que se deben reescribir
     */
-    protected abstract void Walk(){
-        //Escribir el comportamiento basico de un soldado
-    }
+    protected abstract void Walk();
+    //Escribir el comportamiento basico de un soldado
+
 
     protected abstract void Run();
 }
