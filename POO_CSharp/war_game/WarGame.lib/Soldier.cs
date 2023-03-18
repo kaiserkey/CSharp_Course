@@ -13,5 +13,5 @@ public abstract class Soldier
 }
 
 /* 
-    Otra manera de 
+    Otra manera de abstraer un concepto 
  */
