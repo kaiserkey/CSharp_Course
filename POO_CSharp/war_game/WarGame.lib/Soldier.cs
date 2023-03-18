@@ -16,4 +16,7 @@ public abstract class Soldier
     Otra manera de abstraer un concepto es con interfaces
  */
 
- public interface ISoldier
+public interface ISoldier{
+    void Walk();
+    void Run();
+}
