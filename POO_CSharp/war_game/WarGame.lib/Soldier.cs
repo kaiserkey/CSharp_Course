@@ -21,5 +21,5 @@ public interface ISoldier{
     void Run();
 }
 /* 
-    Las clases abstract se pueden heredar y las in
+    Las clases abstract se pueden heredar y las interfaces se pueden implementar
  */
