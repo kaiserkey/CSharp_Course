@@ -7,7 +7,7 @@ namespace helloworld.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    env
+    
 
     public HomeController(ILogger<HomeController> logger)
     {
