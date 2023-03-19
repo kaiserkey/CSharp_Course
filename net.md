@@ -106,7 +106,7 @@ En resumen, estos comandos son muy útiles para trabajar con Entity Framework Co
 
 En ASP.NET MVC, los controladores pueden tener diferentes métodos según las acciones que deben realizar. Algunos de los métodos más comunes que puede tener un controlador de ASP.NET MVC son:
 
-**ActionResult**: es un tipo de retorno de acción que representa un resultado de acción genérico. Puede devolver cualquier tipo de resultado, como una vista, un archivo, un JSON, etc.
+**ActionResult y IActionresult**: es un tipo de retorno de acción que representa un resultado de acción genérico. Puede devolver cualquier tipo de resultado, como una vista, un archivo, un JSON, etc.
 
 **ViewResult**: representa una vista que se va a renderizar como resultado de una acción del controlador.
 
