@@ -51,7 +51,23 @@ namespace automovil
             set { modelo = value; }
         }
 
-        
+        public string Color
+        {
+            get { return color; }
+            set { color = value; }
+        }
+
+        public string Tipo_combustible
+        {
+            get { return tipo_combustible; }
+            set { tipo_combustible = value; }
+        }
+
+        public float Velcidad
+        {
+            get { return velcidad; }
+            set { velcidad = value; }
+        }
 
         //metodos
         public void Acelerar()
