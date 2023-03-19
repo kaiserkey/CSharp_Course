@@ -4,7 +4,7 @@ public class War
 {
 
     public War(){
-        Assault(LightInfantry());
+        Assault(new LightInfantry());
     }
     public void Assault(Soldier soldier)
     {
