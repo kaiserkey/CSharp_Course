@@ -18,7 +18,10 @@ public class HomeController : Controller
 
     public FileStreamResult PDF(){
         string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "20Horas.pdf");
-        if(System.IO.File.Exists())
+        if(System.IO.File.Exists(FilePath)){
+            byte[] fileBytes = System.IO.File.ReadAllBytes(FilePath);
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, "20Horas.pdf");
+        }  
     }
 
     public IActionResult Index()
