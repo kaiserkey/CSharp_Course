@@ -11,7 +11,7 @@ namespace automovil
         {
             Auto auto1 = new Auto();
 
-            COnsole
+            Console.WriteLine("Marca: " + auto1.Marca);
         }
     }
 }
