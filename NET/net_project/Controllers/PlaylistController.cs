@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using net_project.Models;
 
-namespace net_project.Controllers
+namespace net_project.Controllers;
 {
     [Route("[controller]")]
     public class PlaylistController : Controller
