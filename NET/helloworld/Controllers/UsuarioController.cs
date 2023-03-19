@@ -15,22 +15,6 @@ public class UsuarioController : Controller
         return View();
     }
 
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody] modelType model)
-    {
-      try
-      {
-        
-    
-        // TODO Remove
-        await Task.Yield();
-    
-        return Created("", null);
-      }
-      catch (Exception)
-      {
-        return BadRequest();
-      }
-    }
+    po
 
 }
