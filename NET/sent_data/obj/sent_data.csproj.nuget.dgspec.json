@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel/Codigo/CSharp/NET/helloworld/sent_data/sent_data.csproj": {}
+    "/home/daniel/Codigo/CSharp/NET/sent_data/sent_data.csproj": {}
   },
   "projects": {
-    "/home/daniel/Codigo/CSharp/NET/helloworld/sent_data/sent_data.csproj": {
+    "/home/daniel/Codigo/CSharp/NET/sent_data/sent_data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel/Codigo/CSharp/NET/helloworld/sent_data/sent_data.csproj",
+        "projectUniqueName": "/home/daniel/Codigo/CSharp/NET/sent_data/sent_data.csproj",
         "projectName": "sent_data",
-        "projectPath": "/home/daniel/Codigo/CSharp/NET/helloworld/sent_data/sent_data.csproj",
+        "projectPath": "/home/daniel/Codigo/CSharp/NET/sent_data/sent_data.csproj",
         "packagesPath": "/home/daniel/.nuget/packages/",
-        "outputPath": "/home/daniel/Codigo/CSharp/NET/helloworld/sent_data/obj/",
+        "outputPath": "/home/daniel/Codigo/CSharp/NET/sent_data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniel/.nuget/NuGet/NuGet.Config"
