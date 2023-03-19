@@ -93,6 +93,24 @@ namespace automovil
             set { numero_ruedas = value; }
         }
 
+        public int Numero_puertas
+        {
+            get { return numero_puertas; }
+            set { numero_puertas = value; }
+        }
+
+        public int Numero_asientos
+        {
+            get { return numero_asientos; }
+            set { numero_asientos = value; }
+        }
+
+        public int Numero_cilindros
+        {
+            get { return numero_cilindros; }
+            set { numero_cilindros = value; }
+        }
+
         
 
         //metodos
