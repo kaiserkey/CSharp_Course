@@ -11,6 +11,7 @@ namespace personas
         {
             Persona p = new Persona("Juan", 20, "Masculino");
             p.Presentarse();
+            p.Dormir();
         }
     }
 }
