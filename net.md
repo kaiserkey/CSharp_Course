@@ -1,4 +1,4 @@
-### Distintos comandos pa
+### Distintos comandos para generar proyectos nuevos en ASP.NET
 
 1. dotnet new webapp -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
 
