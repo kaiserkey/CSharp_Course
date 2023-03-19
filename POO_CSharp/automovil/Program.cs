@@ -3,4 +3,4 @@ namespace automovil;
 
 Auto auto1 = new Auto();
 
-Console.WriteLine("Marca: " + auto1.Marca());
+Console.WriteLine("Marca: ");
