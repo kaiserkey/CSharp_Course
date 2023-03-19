@@ -15,6 +15,8 @@ public class HomeController : Controller
         _env = env;
     }
 
+    public FileStr
+
     public IActionResult Index()
     {
         return View();
