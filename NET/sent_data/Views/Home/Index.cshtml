@@ -3,10 +3,11 @@
 }
 
 
-@ViewData["Apellido"]
+
 @TempData["Usuario"]
 
-<h1>@ViewBag.Nombre</h1>
+<h1>@ViewBag.Nombre @ViewData["Apellido"]</h1>
+<h2></h2>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
