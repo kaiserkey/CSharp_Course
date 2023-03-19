@@ -25,7 +25,7 @@ public class HomeController : Controller
             "Melon",
             "Piña"
         };
-        
+        ViewBag.Frutas = Frutas;
         return View();
     }
 
