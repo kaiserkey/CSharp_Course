@@ -7,31 +7,30 @@ namespace personas
 {
     public class Persona
     {
-        private string nombre;
-        private string apellido;
-        private int edad;
-        private string dni;
-        private string direccion;
-        private string telefono;
-        private string email;
-        private string sexo;
+        public string Nombre { get; set; }
+    public int Edad { get; set; }
+    public string Genero { get; set; }
 
-        public Persona()
-        {
-            nombre = "";
-            apellido = "";
-            edad = 0;
-            dni = "";
-            direccion = "";
-            telefono = "";
-            email = "";
-            sexo = "";
-        }
-
-        public Persona(string nombre, string apellido, int edad, string direccion, string telefono, string email, string sexo){
-            this.nombre = nombre;
-            this.apellido = apellido;
-            
-        }
+    public Persona(string nombre, int edad, string genero)
+    {
+        Nombre = nombre;
+        Edad = edad;
+        Genero = genero;
     }
+
+    public void Presentarse()
+    {
+        Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", Nombre, Edad);
+    }
+
+    public void Comer(string comida)
+    {
+        Console.WriteLine("{0} está comiendo {1}.", Nombre, comida);
+    }
+
+    public void Dormir()
+    {
+        Console.WriteLine("{0} está durmiendo.", Nombre);
+    }
+    
 }
