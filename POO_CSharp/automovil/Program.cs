@@ -10,7 +10,7 @@ namespace automovil
         public static void Main(string[] args)
         {
             Auto auto1 = new Auto();
-            auto1.
+            auto1.Marca = "Cachibache";
             Console.WriteLine("Marca: " + auto1.Marca);
         }
     }
