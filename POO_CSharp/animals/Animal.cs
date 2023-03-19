@@ -7,6 +7,8 @@ namespace animals
 {
     public class Animal
     {
-        
+        // Atributos
+        protected string Nombre { get; set; }
+        protected string Tipo
     }
 }
