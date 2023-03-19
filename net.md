@@ -25,20 +25,8 @@
 
 - dotnet publish (Publica la aplicación).
 
-
-
-comandos mas utilizados para trabajar en .net desde consola en visual studio code
-
-1. dotnet new - Crea un nuevo proyecto .NET.
-2. dotnet restore - Restaura los paquetes NuGet necesarios para compilar el proyecto.
-3. dotnet build - Compila el proyecto.
-4. dotnet run - Ejecuta el proyecto.
-5. dotnet add package - Agrega un paquete NuGet al proyecto.
-6. dotnet test - Ejecuta las pruebas de la solución.
-7. dotnet publish - Prepara el proyecto para su publicación.
-8. dotnet clean - Limpia los archivos generados durante la compilación.
-9. dotnet watch - Vigila los cambios realizados en los archivos del proyecto y ejecuta la compilación automáticamente.
-10. dotnet nuget locals - Muestra la lista de los directorios de almacenamiento local de NuGet.
+1. dotnet watch - Vigila los cambios realizados en los archivos del proyecto y ejecuta la compilación automáticamente.
+2.  dotnet nuget locals - Muestra la lista de los directorios de almacenamiento local de NuGet.
 
 
 sintaxis de razor en .net
