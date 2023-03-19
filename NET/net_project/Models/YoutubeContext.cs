@@ -25,7 +25,7 @@ public partial class YoutubeContext : DbContext
  */
 
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseMySql("server=localhost;port=3306;database=Youtube;uid=root;password=1234", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
+        => optionsBuilder.UseMySql(optionsBuilder, Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
