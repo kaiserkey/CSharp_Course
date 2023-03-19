@@ -21,7 +21,9 @@ public class HomeController : Controller
         List<string> lista = new List<string>(){
             "Manzana",
             "Pera",
-            
+            "Sandia",
+            "Melon",
+            "Piña"
         };
         return View();
     }
