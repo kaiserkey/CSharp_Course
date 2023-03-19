@@ -20,7 +20,7 @@ public class HomeController : Controller
 
     public IActionResult HelloWorld()
     {
-        return "View()";
+        return "Hello World!";
     }
 
     public IActionResult Privacy()
