@@ -1,29 +1,29 @@
 ### Distintos comandos para generar proyectos nuevos en ASP.NET
 
-1. dotnet new webapp -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
+- dotnet new webapp -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
 
-2. dotnet new mvc -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
+- dotnet new mvc -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
 
-3. dotnet new classlib -o <nombre-de-la-biblioteca> (Crea una biblioteca de clases .NET Core).
+- dotnet new classlib -o <nombre-de-la-biblioteca> (Crea una biblioteca de clases .NET Core).
 
-4. dotnet new console -o <nombre-de-la-aplicación> (Crea una aplicación de consola .NET Core).
+- dotnet new console -o <nombre-de-la-aplicación> (Crea una aplicación de consola .NET Core).
 
-5. dotnet new worker -o <nombre-de-la-aplicación> (Crea una aplicación de trabajador .NET Core).
+- dotnet new worker -o <nombre-de-la-aplicación> (Crea una aplicación de trabajador .NET Core).
 
-6. dotnet new razor -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core con
+- dotnet new razor -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core con
 
 
 ### Comandos para instalar paquetes e inicializar el proyecto
 
-1. dotnet add package <nombre-del-paquete> (Agrega un paquete NuGet a la aplicación).
+- dotnet add package <nombre-del-paquete> (Agrega un paquete NuGet a la aplicación).
 
-2. dotnet restore (Restaura los paquetes NuGet para la aplicación).
+- dotnet restore (Restaura los paquetes NuGet para la aplicación).
 
-3. dotnet build (Compila la aplicación).
+- dotnet build (Compila la aplicación).
 
-4. dotnet run (Ejecuta la aplicación).
+- dotnet run (Ejecuta la aplicación).
 
-5. dotnet publish (Publica la aplicación).
+- dotnet publish (Publica la aplicación).
 
 
 
