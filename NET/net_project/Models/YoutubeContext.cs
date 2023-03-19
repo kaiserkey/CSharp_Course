@@ -24,20 +24,20 @@ public partial class YoutubeContext : DbContext
         => optionsBuilder.UseMySql("server=localhost;port=3306;database=Youtube;uid=root;password=1234", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
  */
 
-protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-{
-    if (!optionsBuilder.IsConfigured)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        IConfigurationRoot configuration = new ConfigurationBuilder()
-            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-            .AddJsonFile("appsettings.json")
-            .Build();
+        if (!optionsBuilder.IsConfigured)
+        {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
 
-        optionsBuilder.UseMySql(
-            configuration.GetConnectionString("MySQLContext"),
-            Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
+            optionsBuilder.UseMySql(
+                configuration.GetConnectionString("MySQLContext"),
+                Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
+        }
     }
-}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
