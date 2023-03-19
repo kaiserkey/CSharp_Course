@@ -20,7 +20,7 @@ namespace personas
 
         public void Presentarse()
         {
-            Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", this.Nombre, Edad);
+            Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", Nombre, Edad);
         }
 
         public void Beber(string bebida)
