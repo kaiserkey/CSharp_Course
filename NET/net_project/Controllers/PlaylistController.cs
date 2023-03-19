@@ -18,7 +18,7 @@ namespace net_project.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Playlist()
         {
             return View();
         }
