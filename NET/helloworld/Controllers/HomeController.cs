@@ -12,7 +12,7 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger, IHostingEnviroment env)
     {
         _logger = logger;
-        
+        _env = env;
     }
 
     public IActionResult Index()
