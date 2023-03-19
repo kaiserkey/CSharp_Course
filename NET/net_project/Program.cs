@@ -1,4 +1,4 @@
-using Models;
+using nModels;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
