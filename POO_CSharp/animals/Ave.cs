@@ -7,6 +7,6 @@ namespace animals
 {
     public class Ave : Animal, Volador
     {
-        
+        public void Volar()
     }
 }
