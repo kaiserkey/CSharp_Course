@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/bin/Debug/net7.0/animals
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/bin/Debug/net7.0/animals.deps.json
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/bin/Debug/net7.0/animals.runtimeconfig.json
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/bin/Debug/net7.0/animals.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/bin/Debug/net7.0/animals.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/refint/animals.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/animals.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/animals/obj/Debug/net7.0/ref/animals.dll
