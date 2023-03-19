@@ -136,4 +136,3 @@ En ASP.NET MVC, los controladores pueden tener diferentes métodos según las ac
 **ObjectResult**: representa cualquier objeto que se va a enviar como resultado de una acción del controlador.
 
 **Task<IActionResult>**: es un método asincrónico que devuelve un objeto IActionResult.
-
