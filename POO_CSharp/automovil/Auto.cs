@@ -69,6 +69,12 @@ namespace automovil
             set { velcidad = value; }
         }
 
+        public int Anio
+        {
+            get { return anio; }
+            set { anio = value; }
+        }
+
         
 
         //metodos
