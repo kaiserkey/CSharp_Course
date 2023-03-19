@@ -12,7 +12,7 @@ public abstract class Soldier
 
     protected abstract void Run();
 
-    protected abstract void Shoot();
+    public abstract void Shoot();
 }
 
 /* 

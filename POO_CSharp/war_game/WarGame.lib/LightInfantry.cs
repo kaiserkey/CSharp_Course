@@ -6,7 +6,7 @@ public class LightInfantry : Soldier
         public, private, protected, internal
      */
     // aqui encapsulamos el comportamiento disparar
-    protected override void Shoot()
+    pu override void Shoot()
     {
         base.Shoot();
     }
