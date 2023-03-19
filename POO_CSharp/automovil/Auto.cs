@@ -39,7 +39,7 @@ namespace automovil
         }
 
         //get y set
-        public string Marca(get; set;)
+        public string Marca
 
         //metodos
         public void Acelerar()
