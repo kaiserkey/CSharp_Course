@@ -17,7 +17,8 @@ public class HomeController : Controller
     }
 
     public FileStreamResult PDF(){
-        string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "Prueba.pdf");
+        string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "20Horas.pdf");
+        if(System.IO.File.Exists())
     }
 
     public IActionResult Index()
