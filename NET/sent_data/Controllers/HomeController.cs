@@ -15,8 +15,9 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.Nombre = "Daniel GOnzalez";
+        ViewBag.Nombre = "Daniel";
         ViewData["Apellido"] = "Gonzalez";
+        TempData["Edad"] = 29;
         return View();
     }
 
