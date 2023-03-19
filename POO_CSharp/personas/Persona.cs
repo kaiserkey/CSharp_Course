@@ -28,6 +28,8 @@ namespace personas
             sexo = "";
         }
 
-        public Persona
+        public Persona(){
+            
+        }
     }
 }
