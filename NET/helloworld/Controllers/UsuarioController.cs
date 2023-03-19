@@ -17,8 +17,8 @@ public class UsuarioController : Controller
         _logger = logger;
     }
 
-    public IActionResult(){
-        
+    public IActionResult Index(){
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
