@@ -4,16 +4,16 @@ using net_project.Models;
 
 namespace net_project.Controllers;
 
-public class HomeController : Controller
+public class PlaylistController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<PlaylistController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public PlaylistController(ILogger<PlaylistController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Playlist()
     {
         return View();
     }
