@@ -8,7 +8,7 @@ public class LightInfantry : Soldier
     // aqui encapsulamos el comportamiento disparar
     protected override void Shoot()
     {
-        base.
+        base.Shoot();
     }
 
     protected override void Walk()
