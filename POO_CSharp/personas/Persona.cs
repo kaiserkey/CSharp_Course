@@ -29,7 +29,7 @@ namespace personas
         }
 
         public Persona(string nombre, string apellido, int edad, string direccion, string telefono, string email, string sexo){
-            nombre 
+            this.nombre = nombre;
         }
     }
 }
