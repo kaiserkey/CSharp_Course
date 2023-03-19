@@ -10,9 +10,9 @@ namespace helloworld.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private IHostingEnviroment _env;
+    private IHostingEnvironment _env;
 
-    public HomeController(ILogger<HomeController> logger, IHostingEnviroment env)
+    public HomeController(ILogger<HomeController> logger, IHostingEnvironment env)
     {
         _logger = logger;
         _env = env;
