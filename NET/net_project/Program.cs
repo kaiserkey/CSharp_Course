@@ -1,10 +1,9 @@
-using net_project.Models;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<PubContext>(options => {
+builder.Services.AddDbContext<MySQLContext>(options => {
     options.UseMySQL(builder.Configuration.GetConnectionString("MySQLContext"));
 });
 
