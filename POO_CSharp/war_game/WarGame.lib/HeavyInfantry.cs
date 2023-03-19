@@ -4,7 +4,7 @@ public class HeavyInfantry : Soldier
 {
     // aqui encapsulamos el comportamiento disparar, 
     //el cual sera un poco distinto del de la clase LightInfantry
-    protected override void Shoot()
+    public override void Shoot()
     {
         base.Shoot(); // usar un comportamiento por defecto que tenga y tambien podemos extenderlo
     }
