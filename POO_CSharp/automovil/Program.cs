@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace automovil;
+namespace automovil {
+    Auto auto1 = new Auto();
+}
 
-Auto auto1 = new Auto();
+
 
 
