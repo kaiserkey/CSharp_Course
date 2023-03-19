@@ -78,4 +78,5 @@ Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecuta
 ```dotnet add package Pomelo.EntityFrameworkCore.MySql```
 2. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
 dotnet add package Microsoft.EntityFrameworkCore.Tools
-3. 
+3. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
+dotnet add package Microsoft.EntityFrameworkCore.Design
