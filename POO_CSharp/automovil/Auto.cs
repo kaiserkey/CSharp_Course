@@ -69,6 +69,8 @@ namespace automovil
             set { velcidad = value; }
         }
 
+        
+
         //metodos
         public void Acelerar()
         {
