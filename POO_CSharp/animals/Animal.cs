@@ -10,6 +10,8 @@ namespace animals
         // Atributos
         protected string Nombre { get; set; }
         protected string Tipo { get; set; }
-        
+        protected string Raza { get; set; }
+
+        public Animal()
     }
 }
