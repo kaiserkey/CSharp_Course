@@ -19,6 +19,8 @@ public class HomeController : Controller
         ViewData["Apellido"] = "Gonzalez";
         TempData["Usuario"] = "kaiserkey";
         List<string> lista = new List<string>(){
+            "Manzana",
+            "Pera",
             
         };
         return View();
