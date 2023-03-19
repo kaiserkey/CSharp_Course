@@ -22,6 +22,6 @@ namespace automovil
         private int numero_cilindros;
 
         //constructor
-        
+        public Auto()
     }
 }
