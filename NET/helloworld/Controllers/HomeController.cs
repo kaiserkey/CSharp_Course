@@ -23,7 +23,7 @@ public class HomeController : Controller
             FileStream fs = new FileStream(FilePath, FileMode.Open);
             return File(fs, "aplication/pdf");
         }else{
-            FileStream fs = new FileStream(FilePath, FileMode.Open);
+            FileStream fs = new FileStream(FilePathNotFound, FileMode.Open);
             return File(fs, "aplication/pdf");
         }
     }
