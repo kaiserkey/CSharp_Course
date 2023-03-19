@@ -18,9 +18,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public string HelloWorld()
+    public string HelloWorld(string nombre)
     {
-        return "Hello World!";
+        return "Hello World!{}";
     }
 
     public IActionResult Privacy()
