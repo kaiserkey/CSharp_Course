@@ -7,6 +7,6 @@ namespace personas
 {
     public class Persona
     {
-        
+        privat
     }
 }
