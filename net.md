@@ -36,7 +36,7 @@ Razor es un lenguaje de marcado y sintaxis que se usa para crear páginas web di
 
 Razor está formado por un conjunto de caracteres especiales, conocidos como "marcadores", que se usan para indicar a Razor cómo renderizar el código. Estos marcadores se usan para escribir instrucciones en las páginas web. Algunos de los marcadores principales incluyen:
 
-@ - Utilizado para indicar que se incluye código C# o Visual Basic
+```@ ```- Utilizado para indicar que se incluye código C# o Visual Basic
 
 @: - Utilizado para insertar una cadena en la página
 
