@@ -6,7 +6,5 @@ public class LightInfantry : Soldier
         public, private, protected, internal
      */
     // aqui encapsulamos el comportamiento disparar
-    public void Shoot(){
-        
-    }
+    protected 
 }
