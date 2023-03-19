@@ -12,7 +12,7 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private Microsoft.AspNetCore.Hosting.IHostingEnvironment _env;
 
-    public HomeController(ILogger<HomeController> logger, IHostingEnvironment env)
+    public HomeController(ILogger<HomeController> logger, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
     {
         _logger = logger;
         _env = env;
