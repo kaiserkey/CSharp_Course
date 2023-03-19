@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace automovil
 {
-    public class MainClass
+    public class Program
     {
         
     }
