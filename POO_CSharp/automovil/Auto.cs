@@ -15,6 +15,8 @@ namespace automovil
         private int kilometraje;
         private int precio;
         
-        private in numero_ruedas
+        private int numero_ruedas;
+        private int numero_puertas;
+        
     }
 }
