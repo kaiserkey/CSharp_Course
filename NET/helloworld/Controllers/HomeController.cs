@@ -21,7 +21,9 @@ public class HomeController : Controller
         if(System.IO.File.Exists(FilePath)){
             byte[] fileBytes = System.IO.File.ReadAllBytes(FilePath);
             return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, "20Horas.pdf");
-        }  
+        }else{
+            return null;
+        }
     }
 
     public IActionResult Index()
