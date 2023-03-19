@@ -16,7 +16,7 @@ namespace personas
 
         public void Programar()
         {
-            Console.WriteLine("{0} está programando en {1}.", Nombre.Get(), Lenguaje);
+            Console.WriteLine("{0} está programando en {1}.", Nombre, Lenguaje);
         }
     }
 }
