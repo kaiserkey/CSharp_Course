@@ -72,4 +72,6 @@ Es importante tener en cuenta que este comando requiere que tengas instalado el 
 
 Después de instalar la herramienta de Entity Framework, puedes utilizar el comando dotnet ef para ejecutar varios comandos, como crear migraciones, actualizar la base de datos y generar modelos a partir de una base de datos existente.
 
-Para configurar e in EntityFrameworkCore con MySQL en .NET, puedes ejecutar los siguientes comandos en la terminal:
+Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecutar los siguientes comandos en la terminal:
+
+1. Instalar el paquete de NuGet "Pomelo.EntityFrameworkCore.MySql":
