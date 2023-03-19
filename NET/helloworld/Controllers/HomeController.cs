@@ -22,7 +22,8 @@ public class HomeController : Controller
             FileStream fs = new FileStream(FilePath, FileMode.Open);
             return File(fs, "aplication/pdf");
         }else{
-            return null;
+            FileStream fs = new FileStream(FilePath, FileMode.Open);
+            return File(fs, "aplication/pdf");
         }
     }
 
