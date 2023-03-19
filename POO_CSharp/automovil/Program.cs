@@ -1,8 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using (resource)
-{
-    
-}
+using Automovil;
 
 Auto auto1 = new Auto();
 Console.WriteLine("Marca: " + auto1.Marca);
