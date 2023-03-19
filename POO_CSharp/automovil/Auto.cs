@@ -45,6 +45,14 @@ namespace automovil
             set { marca = value; }
         }
 
+        public string Modelo
+        {
+            get { return modelo; }
+            set { modelo = value; }
+        }
+
+        
+
         //metodos
         public void Acelerar()
         {
