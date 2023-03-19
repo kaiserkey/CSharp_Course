@@ -18,13 +18,14 @@ public class HomeController : Controller
         ViewBag.Nombre = "Daniel";
         ViewData["Apellido"] = "Gonzalez";
         TempData["Usuario"] = "kaiserkey";
-        List<string> lista = new List<string>(){
+        List<string> Frutas = new List<string>(){
             "Manzana",
             "Pera",
             "Sandia",
             "Melon",
             "Piña"
         };
+        
         return View();
     }
 
