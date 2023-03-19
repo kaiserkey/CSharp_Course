@@ -9,6 +9,7 @@ namespace animals
     {
         // Atributos
         protected string Nombre { get; set; }
-        protected string Tipo
+        protected string Tipo { get; set; }
+        
     }
 }
