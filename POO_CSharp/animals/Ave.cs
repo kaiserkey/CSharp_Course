@@ -8,7 +8,7 @@ namespace animals
     public class Ave : Animal, Volador
     {
         public void Volar(){
-            Console.WriteLine("El ave despega y vuela v")
+            Console.WriteLine("El ave despega y vuela vuela...");
         }
     }
 }
