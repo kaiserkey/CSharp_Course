@@ -14,7 +14,7 @@
 </ul>
 
 <ul>
-    @foreach (var fruta in ViewData.Frutas)
+    @foreach (var fruta in ViewData[Frutas])
     {
         <li>@fruta</li>
     }
@@ -22,7 +22,7 @@
 
 
 <ul>
-    @foreach (var fruta in TempData.Frutas)
+    @foreach (var fruta in TempDataFrutas)
     {
         <li>@fruta</li>
     }
