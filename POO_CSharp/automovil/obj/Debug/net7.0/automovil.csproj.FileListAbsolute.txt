@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/bin/Debug/net7.0/automovil
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/bin/Debug/net7.0/automovil.deps.json
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/bin/Debug/net7.0/automovil.runtimeconfig.json
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/bin/Debug/net7.0/automovil.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/bin/Debug/net7.0/automovil.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/refint/automovil.dll
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.pdb
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/automovil.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/POO_CSharp/automovil/obj/Debug/net7.0/ref/automovil.dll
