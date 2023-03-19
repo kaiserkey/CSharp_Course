@@ -13,8 +13,7 @@
 6. dotnet new razor -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core con
 
 
-comandos para ejecutar la aplicacion web
-
+### Comando
 1. dotnet add package <nombre-del-paquete> (Agrega un paquete NuGet a la aplicación).
 
 2. dotnet restore (Restaura los paquetes NuGet para la aplicación).
