@@ -17,7 +17,7 @@ public class HomeController : Controller
     {
         ViewBag.Nombre = "Daniel";
         ViewData["Apellido"] = "Gonzalez";
-        TempData["Edad"] = 29;
+        TempData["Usuario"] = "";
         return View();
     }
 
