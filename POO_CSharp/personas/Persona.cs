@@ -7,9 +7,9 @@ namespace personas
 {
     public class Persona
     {
-        public string Nombre { get; set; }
-        public int Edad { get; set; }
-        public string Genero { get; set; }
+        private string Nombre { get; set; }
+        private int Edad { get; set; }
+        private string Genero { get; set; }
 
         public Persona(string nombre, int edad, string genero)
         {
