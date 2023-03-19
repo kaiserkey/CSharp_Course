@@ -18,7 +18,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public ViewResult 
+    public ViewResult T 
 
     public string HelloWorld(string nombre)
     {
