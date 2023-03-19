@@ -18,7 +18,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult HelloWorld()
+    public string HelloWorld()
     {
         return "Hello World!";
     }
