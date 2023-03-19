@@ -11,6 +11,8 @@ public abstract class Soldier
     //Escribir el comportamiento basico de un soldado
 
     protected abstract void Run();
+
+    public abstract 
 }
 
 /* 
