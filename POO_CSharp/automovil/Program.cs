@@ -10,6 +10,8 @@ namespace automovil
         public static void Main(string[] args)
         {
             Auto auto1 = new Auto();
+
+            COnsole
         }
     }
 }
