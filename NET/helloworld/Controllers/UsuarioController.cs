@@ -17,7 +17,9 @@ public class UsuarioController : Controller
         _logger = logger;
     }
 
-    public IAc
+    public IActionResult(){
+        
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
