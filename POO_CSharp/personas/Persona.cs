@@ -7,7 +7,7 @@ namespace personas
 {
     public class Persona
     {
-        private string Nombre { get; set; }
+        protected string Nombre { get; set; }
         private int Edad { get; set; }
         private string Genero { get; set; }
 
