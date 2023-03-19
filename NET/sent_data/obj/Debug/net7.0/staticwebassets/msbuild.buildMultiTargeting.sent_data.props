@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/sent_data.props" />
+</Project>
