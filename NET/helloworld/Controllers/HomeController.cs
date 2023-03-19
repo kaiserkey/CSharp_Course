@@ -19,7 +19,7 @@ public class HomeController : Controller
     public FileStreamResult PDF(){
         string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "20Horas.pdf");
         if(System.IO.File.Exists(FilePath)){
-            FileStream fs = new FileStream(FilePath, )
+            FileStream fs = new FileStream(FilePath, FileMode.Open);
             return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, "20Horas.pdf");
         }else{
             return null;
