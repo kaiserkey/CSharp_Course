@@ -1,4 +1,4 @@
-comandos para generar proyecto dotnet con asp.net framework desde consola 
+### Distintos comandos pa
 
 1. dotnet new webapp -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core MVC).
 
