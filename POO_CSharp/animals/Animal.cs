@@ -12,6 +12,8 @@ namespace animals
         protected string Tipo { get; set; }
         protected string Raza { get; set; }
 
-        public Animal()
+        public Animal(){
+            
+        }
     }
 }
