@@ -11,8 +11,9 @@ namespace automovil
         {
             Auto auto1 = new Auto();
             auto1.Marca = "Megane";
-            auto1.
+            auto1.Modelo = "Sport";
             Console.WriteLine("Marca: " + auto1.Marca);
+            Console.WriteLine("Modelo: " + auto1.Modelo);
         }
     }
 }
