@@ -38,6 +38,12 @@ namespace automovil
             numero_cilindros = 4;
         }
 
+        //metodos
+        public void Acelerar()
+        {
+            velcidad += 10;
+        }
+
         
     }
 }
