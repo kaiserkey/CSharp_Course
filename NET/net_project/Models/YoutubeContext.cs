@@ -21,7 +21,7 @@ public partial class YoutubeContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 {
-    optionsBuilder.UseConnectionString("MySqlConnection", 
+    optionsBuilder.("MySqlConnection", 
         b => b.ServerVersion(new ServerVersion("8.0.32-mysql")));
 }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
