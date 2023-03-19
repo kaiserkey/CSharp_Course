@@ -38,6 +38,8 @@ namespace automovil
             numero_cilindros = 4;
         }
 
+        //get y set
+
         //metodos
         public void Acelerar()
         {
@@ -59,6 +61,6 @@ namespace automovil
             Console.WriteLine("El auto se ha apagado");
         }
 
-        
+
     }
 }
