@@ -17,7 +17,7 @@ public class HomeController : Controller
     }
 
     public FileStreamResult PDF(){
-        string FilePath = FilePath.Combine();
+        string FilePath = FilePath.Combine(_env);
     }
 
     public IActionResult Index()
