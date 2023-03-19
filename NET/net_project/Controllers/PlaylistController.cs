@@ -13,7 +13,7 @@ public class PlaylistController : Controller
         _logger = logger;
     }
 
-    public IActionResult I()
+    public IActionResult Index()
     {
         return View();
     }
