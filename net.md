@@ -25,8 +25,9 @@
 
 - dotnet publish (Publica la aplicación).
 
-1. dotnet watch - Vigila los cambios realizados en los archivos del proyecto y ejecuta la compilación automáticamente.
-2.  dotnet nuget locals - Muestra la lista de los directorios de almacenamiento local de NuGet.
+- dotnet watch - Vigila los cambios realizados en los archivos del proyecto y ejecuta la compilación automáticamente.
+
+-  dotnet nuget locals - Muestra la lista de los directorios de almacenamiento local de NuGet.
 
 
 sintaxis de razor en .net
@@ -64,9 +65,9 @@ Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecuta
 
 1. Instalar el paquete de NuGet "Pomelo.EntityFrameworkCore.MySql":
 ```dotnet add package Pomelo.EntityFrameworkCore.MySql```
-2. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
+1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
 ```dotnet add package Microsoft.EntityFrameworkCore.Tools```
-3. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
+1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
 
 
