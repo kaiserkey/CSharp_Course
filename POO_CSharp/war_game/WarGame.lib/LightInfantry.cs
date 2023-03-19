@@ -10,4 +10,14 @@ public class LightInfantry : Soldier
     {
         throw new System.NotImplementedException();
     }
+
+    protected override void Walk()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    protected override void Run()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -14,5 +14,8 @@ public class HeavyInfantry : Soldier
         throw new System.NotImplementedException();
     }
 
-    protected ovverr
+    protected override void Run()
+    {
+        throw new System.NotImplementedException();
+    }
 }
