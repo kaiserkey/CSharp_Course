@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AQzt+6yHWwvotsrVtHjjAujjtdUy07a4ciIJgvCSAyA=",
+  "Hash": "JJqDqHLWPAkqlonK9DpV/d5GPDhKlWnKtwveFpiM1BY=",
   "Source": "helloworld",
   "BasePath": "_content/helloworld",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/download/20Horas.pdf",
+      "SourceId": "helloworld",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/",
+      "BasePath": "_content/helloworld",
+      "RelativePath": "download/20Horas.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/download/20Horas.pdf"
+    },
+    {
+      "Identity": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/download/not_found.pdf",
+      "SourceId": "helloworld",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/",
+      "BasePath": "_content/helloworld",
+      "RelativePath": "download/not_found.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/download/not_found.pdf"
     },
     {
       "Identity": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/favicon.ico",

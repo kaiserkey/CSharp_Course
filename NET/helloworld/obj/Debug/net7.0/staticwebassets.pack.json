@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/download/20Horas.pdf",
+      "PackagePath": "staticwebassets/download/20Horas.pdf"
+    },
+    {
+      "Id": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/download/not_found.pdf",
+      "PackagePath": "staticwebassets/download/not_found.pdf"
+    },
+    {
       "Id": "/home/daniel/Codigo/CSharp/NET/helloworld/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
