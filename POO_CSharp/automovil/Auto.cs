@@ -19,6 +19,8 @@ namespace automovil
         private int numero_puertas;
         private int numero_asientos;
         private int numero_cilindros;
+
+        //constructor
         
     }
 }
