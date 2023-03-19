@@ -111,8 +111,6 @@ namespace automovil
             set { numero_cilindros = value; }
         }
 
-        
-
         //metodos
         public void Acelerar()
         {
