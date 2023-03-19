@@ -103,7 +103,7 @@ dotnet ef dbcontext scaffold: Este comando crea automáticamente un contexto de 
 
 En resumen, estos comandos son muy útiles para trabajar con Entity Framework Core en .NET y para manejar la creación y actualización de la base de datos y sus migraciones, así como para generar clases de entidad a partir de una base de datos existente.
 
-### 
+### Tipos de metodos en contro
 
 En ASP.NET MVC, los controladores pueden tener diferentes métodos según las acciones que deben realizar. Algunos de los métodos más comunes que puede tener un controlador de ASP.NET MVC son:
 
