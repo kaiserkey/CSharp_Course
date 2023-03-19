@@ -30,7 +30,7 @@
 -  dotnet nuget locals - Muestra la lista de los directorios de almacenamiento local de NuGet.
 
 
-sintaxis de razor en .net
+#
 
 Razor es un lenguaje de marcado y sintaxis que se usa para crear páginas web dinámicas en aplicaciones ASP.NET. Se utiliza para mejorar la experiencia de desarrollo al proporcionar una sintaxis concisa y fácil de entender, que es similar a la de un lenguaje de programación.
 
