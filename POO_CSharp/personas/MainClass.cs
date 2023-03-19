@@ -9,7 +9,7 @@ namespace personas
     {
         public static void Main(string[] args)
         {
-            
+            Persona p = 
         }
     }
 }
