@@ -8,6 +8,9 @@ namespace automovil
     public class Auto
     {
         //atributos
+        private string marca;
+        private string modelo;
+        private string color;
         
     }
 }
