@@ -15,6 +15,4 @@ public class UsuarioController : Controller
         return View();
     }
 
-    
-
 }
