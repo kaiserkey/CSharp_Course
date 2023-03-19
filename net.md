@@ -107,32 +107,32 @@ En resumen, estos comandos son muy útiles para trabajar con Entity Framework Co
 
 En ASP.NET MVC, los controladores pueden tener diferentes métodos según las acciones que deben realizar. Algunos de los métodos más comunes que puede tener un controlador de ASP.NET MVC son:
 
--**IActionResult**: es una interfaz que representa un tipo de resultado de acción en ASP.NET MVC. Se utiliza para encapsular diferentes tipos de resultados de acción que se pueden devolver desde una acción del controlador.
+- **IActionResult**: es una interfaz que representa un tipo de resultado de acción en ASP.NET MVC. Se utiliza para encapsular diferentes tipos de resultados de acción que se pueden devolver desde una acción del controlador.
 
--**ActionResult**: es un tipo de retorno de acción que representa un resultado de acción genérico. Puede devolver cualquier tipo de resultado, como una vista, un archivo, un JSON, etc.
+- **ActionResult**: es un tipo de retorno de acción que representa un resultado de acción genérico. Puede devolver cualquier tipo de resultado, como una vista, un archivo, un JSON, etc.
 
--**ViewResult**: representa una vista que se va a renderizar como resultado de una acción del controlador.
+- **ViewResult**: representa una vista que se va a renderizar como resultado de una acción del controlador.
 
--**PartialViewResult**: representa una vista parcial que se va a renderizar como resultado de una acción del controlador.
+- **PartialViewResult**: representa una vista parcial que se va a renderizar como resultado de una acción del controlador.
 
--**FileResult**: representa un archivo que se va a descargar como resultado de una acción del controlador.
+- **FileResult**: representa un archivo que se va a descargar como resultado de una acción del controlador.
 
--**JsonResult**: representa un objeto JSON que se va a enviar como resultado de una acción del controlador.
+- **JsonResult**: representa un objeto JSON que se va a enviar como resultado de una acción del controlador.
 
--**RedirectResult**: redirige a otra URL como resultado de una acción del controlador.
+- **RedirectResult**: redirige a otra URL como resultado de una acción del controlador.
 
--**RedirectToRouteResult**: redirige a otra ruta como resultado de una acción del controlador.
+- **RedirectToRouteResult**: redirige a otra ruta como resultado de una acción del controlador.
 
--**HttpStatusCodeResult**: representa un código de estado HTTP como resultado de una acción del controlador.
+- **HttpStatusCodeResult**: representa un código de estado HTTP como resultado de una acción del controlador.
 
--**ContentResult**: devuelve una cadena de texto sin formato como resultado de una acción del controlador.
+- **ContentResult**: devuelve una cadena de texto sin formato como resultado de una acción del controlador.
 
--**EmptyResult**: representa una respuesta vacía como resultado de una acción del controlador.
+- **EmptyResult**: representa una respuesta vacía como resultado de una acción del controlador.
 
--**ViewComponentResult**: representa una vista de componente que se va a renderizar como resultado de una acción del controlador.
+- **ViewComponentResult**: representa una vista de componente que se va a renderizar como resultado de una acción del controlador.
 
--**StatusCodeResult**: representa un código de estado HTTP personalizado que se va a enviar como resultado de una acción del controlador.
+- **StatusCodeResult**: representa un código de estado HTTP personalizado que se va a enviar como resultado de una acción del controlador.
 
--**ObjectResult**: representa cualquier objeto que se va a enviar como resultado de una acción del controlador.
+- **ObjectResult**: representa cualquier objeto que se va a enviar como resultado de una acción del controlador.
 
--**Task<IActionResult>**: es un método asincrónico que devuelve un objeto IActionResult.
+- **Task<IActionResult>**: es un método asincrónico que devuelve un objeto IActionResult.
