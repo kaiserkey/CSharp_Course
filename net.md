@@ -38,17 +38,17 @@ Razor está formado por un conjunto de caracteres especiales, conocidos como "ma
 
 ```@ ```- Utilizado para indicar que se incluye código C# o Visual Basic
 
-@: - Utilizado para insertar una cadena en la página
+```@```: - Utilizado para insertar una cadena en la página
 
-@( ) - Utilizado para especificar instrucciones del lenguaje HTML
+```@( )``` - Utilizado para especificar instrucciones del lenguaje HTML
 
-@{ } - Utilizado para especificar bloques de código C# o Visual Basic
+```@{ }``` - Utilizado para especificar bloques de código C# o Visual Basic
 
-@foreach - Utilizado para ejecutar un bucle a través de una colección de objetos
+```@foreach``` - Utilizado para ejecutar un bucle a través de una colección de objetos
 
-@if - Utilizado para especificar una condición
+```@if``` - Utilizado para especificar una condición
 
-@using - Utilizado para importar un espacio de nombres
+```@using``` - Utilizado para importar un espacio de nombres
 
 Además de estos marcadores, Razor también admite otros comandos como HTML, CSS y JavaScript, lo que permite a los desarrolladores crear páginas web complejas con sólo unas pocas líneas de código.
 
