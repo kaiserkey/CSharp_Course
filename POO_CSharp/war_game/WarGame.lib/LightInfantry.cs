@@ -8,6 +8,6 @@ public class LightInfantry : Soldier
     // aqui encapsulamos el comportamiento disparar
     protected override void Shoot()
     {
-        //throw new System.NotImplementedException();
+        throw new System.NotImplementedException();
     }
 }
