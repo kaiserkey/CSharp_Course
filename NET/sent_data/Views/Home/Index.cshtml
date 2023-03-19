@@ -2,12 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
-
-
-@TempData["Usuario"]
-
 <h1>@ViewBag.Nombre @ViewData["Apellido"]</h1>
-<h2></h2>
+<h2>@TempData["Usuario"]</h2>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
