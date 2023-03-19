@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using helloworld.Models;
 using System.IO;
-using Microsoft.Extensions.Hosting;
+Microsoft.Extensions.Hosting.IHostingEnvironment environment;
 
 
 
