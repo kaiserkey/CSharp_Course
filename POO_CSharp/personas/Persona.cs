@@ -27,5 +27,7 @@ namespace personas
             email = "";
             sexo = "";
         }
+
+        public Persona
     }
 }
