@@ -1,10 +1,11 @@
 namespace WarGame.lib;
 
-public class HeavyInfantry
+public class HeavyInfantry : Soldier
 {
     // aqui encapsulamos el comportamiento disparar, 
     //el cual sera un poco distinto del de la clase LightInfantry
-    public void Shoot(){
-        
+    protected override void Shoot()
+    {
+        throw new System.NotImplementedException();
     }
 }
