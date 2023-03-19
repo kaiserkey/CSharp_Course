@@ -14,7 +14,7 @@
 </ul>
 
 <ul>
-    @foreach (var fruta in ViewData["Frutas"])
+    @foreach (var fruta in (<ListViewData["Frutas"]))
     {
         <li>@fruta</li>
     }
