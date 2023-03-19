@@ -34,7 +34,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             .Build();
 
         optionsBuilder.UseMySql(
-            configuration.GetConnectionString("NombreDeTuCadenaDeConexion"),
+            configuration.GetConnectionString("MySQLContext"),
             Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
     }
 }
