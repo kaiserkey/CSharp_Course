@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace personas
 {
-    public class Programador
+    public class Programador : Persona
     {
         
     }
