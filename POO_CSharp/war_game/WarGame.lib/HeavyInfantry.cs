@@ -8,4 +8,11 @@ public class HeavyInfantry : Soldier
     {
         throw new System.NotImplementedException();
     }
+
+    protected override void Walk()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    protected ovverr
 }
