@@ -18,6 +18,8 @@ public class HomeController : Controller
         return View();
     }
 
+    public 
+
     public string HelloWorld(string nombre)
     {
         return "Hello World! " + nombre;
