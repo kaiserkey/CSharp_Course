@@ -23,5 +23,21 @@ namespace automovil
 
         //constructor
         public Auto()
+        {
+            marca = "Ford";
+            modelo = "Fiesta";
+            color = "Rojo";
+            tipo_combustible = "Gasolina";
+            velcidad = 0;
+            anio = 2019;
+            kilometraje = 0;
+            precio = 0;
+            numero_ruedas = 4;
+            numero_puertas = 4;
+            numero_asientos = 5;
+            numero_cilindros = 4;
+        }
+
+        
     }
 }
