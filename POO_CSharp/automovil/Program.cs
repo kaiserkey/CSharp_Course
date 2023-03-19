@@ -9,7 +9,7 @@ namespace automovil
     {
         public static void Main(string[] args)
         {
-            Auto
+            Auto auto1 = new Auto();
         }
     }
 }
