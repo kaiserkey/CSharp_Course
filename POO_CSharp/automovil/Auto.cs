@@ -11,8 +11,8 @@ namespace automovil
         private string marca;
         private string modelo;
         private string color;
-
-        
+        private string tipo_combustible;
+        private 
         private int anio;
         private int kilometraje;
         private int precio;
