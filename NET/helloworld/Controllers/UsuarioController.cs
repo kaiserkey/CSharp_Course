@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace helloworld.Controllers;
 
-public class HomeController : Controller
+public class UsuarioController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<UsuarioController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public UsuarioController(ILogger<UsuarioController> logger)
     {
         _logger = logger;
     }
