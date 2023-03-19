@@ -43,7 +43,7 @@ namespace automovil
         {
             get { return marca; }
             set { marca = value; }
-        }
+        
 
         //metodos
         public void Acelerar()
