@@ -28,8 +28,8 @@ namespace personas
             sexo = "";
         }
 
-        public Persona(){
-            
+        public Persona(string nombre, string apellido, int edad, string ){
+
         }
     }
 }
