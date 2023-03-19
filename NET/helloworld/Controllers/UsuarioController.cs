@@ -15,6 +15,18 @@ public class UsuarioController : Controller
         return View();
     }
 
-    post
+    [HttpPost]
+    public IActionResult Post([FromBody] modelType model)
+    {
+      try
+      {
+        
+        return Created("", null);
+      }
+      catch (Exception)
+      {
+        return BadRequest();
+      }
+    }
 
 }
