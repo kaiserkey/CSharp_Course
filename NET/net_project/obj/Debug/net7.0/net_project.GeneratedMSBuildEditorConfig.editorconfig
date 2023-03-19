@@ -24,8 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/daniel/Codigo/CSharp/NET/net_project/Views/Playlist/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWxpc3QvSW5kZXguY3NodG1s
+[/home/daniel/Codigo/CSharp/NET/net_project/Views/Playlist/Playlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWxpc3QvUGxheWxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/daniel/Codigo/CSharp/NET/net_project/Views/Shared/Error.cshtml]
