@@ -23,7 +23,7 @@ namespace personas
             Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", Nombre, Edad);
         }
 
-        public void Comer(string bebida)
+        public void Beber(string bebida)
         {
             Console.WriteLine("{0} está bebiendo {1}.", Nombre, bebida);
         }
