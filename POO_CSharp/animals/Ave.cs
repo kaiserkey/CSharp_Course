@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace animals
 {
-    public class Ave : Anim
+    public class Ave : Animal, Volador
     {
         
     }
