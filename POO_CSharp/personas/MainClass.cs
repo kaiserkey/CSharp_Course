@@ -15,6 +15,7 @@ namespace personas
 
             Programador pro = new Programador("Pedro", 25, "Masculino", "C#");
             pro.Presentarse();
+            pro.Beber
         }
     }
 }
