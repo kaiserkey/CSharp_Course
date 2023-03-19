@@ -9,7 +9,8 @@ namespace personas
     {
         public static void Main(string[] args)
         {
-            Persona p = 
+            Persona p = new Persona("Juan", 20, "Masculino");
+            p.Presentarse();
         }
     }
 }
