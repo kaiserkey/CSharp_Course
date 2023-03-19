@@ -44,6 +44,21 @@ namespace automovil
             velcidad += 10;
         }
 
+        public void Frenar()
+        {
+            velcidad -= 10;
+        }
+
+        public void Encender()
+        {
+            Console.WriteLine("El auto se ha encendido");
+        }
+
+        public void Apagar()
+        {
+            Console.WriteLine("El auto se ha apagado");
+        }
+
         
     }
 }
