@@ -18,9 +18,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult HelloWo()
+    public IActionResult HelloWorld()
     {
-        return View();
+        return "View()";
     }
 
     public IActionResult Privacy()
