@@ -12,7 +12,7 @@ namespace automovil
         private string modelo;
         private string color;
         private string tipo_combustible;
-        private 
+        private float velcidad;
         private int anio;
         private int kilometraje;
         private int precio;
