@@ -18,7 +18,7 @@ public class HomeController : Controller
 
     public FileStreamResult PDF(){
         string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "20Horas.pdf");
-        string FilePathN = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "20Horas.pdf");
+        string FilePathNotFound = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "not_found.pdf");
         if(System.IO.File.Exists(FilePath)){
             FileStream fs = new FileStream(FilePath, FileMode.Open);
             return File(fs, "aplication/pdf");
