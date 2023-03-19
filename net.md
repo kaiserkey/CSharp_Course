@@ -72,10 +72,4 @@ Es importante tener en cuenta que este comando requiere que tengas instalado el 
 
 Después de instalar la herramienta de Entity Framework, puedes utilizar el comando dotnet ef para ejecutar varios comandos, como crear migraciones, actualizar la base de datos y generar modelos a partir de una base de datos existente.
 
-dotnet ef dbcontext scaffold "server=localhost;port=3306;database=myDatabase;uid=myUsername;password=myPassword;" MySql.Data.EntityFrameworkCore --output-dir Models
-
-En este comando, debes reemplazar los valores localhost, 3306, myDatabase, myUsername y myPassword por los valores correctos para tu configuración de MySQL.
-
-El argumento --output-dir especifica la carpeta donde se generarán los modelos de las tablas de la base de datos. En este caso, los modelos se generarán en la carpeta Models.
-
-Una vez que se complete la ejecución del comando, se generarán los modelos de las tablas de la base de datos en la carpeta Models de tu proyecto. Cada tabla de la base de datos tendrá su propia clase de modelo, que contendrá las propiedades de la tabla como propiedades públicas en la clase.
+Para configurar e in EntityFrameworkCore con MySQL en .NET, puedes ejecutar los siguientes comandos en la terminal:
