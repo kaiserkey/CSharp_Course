@@ -17,7 +17,7 @@ public class HomeController : Controller
     }
 
     public FileStreamResult PDF(){
-        string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/");
+        string FilePath = FilePath.Combine(_env.WebRootPath, "wwwroot/download/", "Prueba.pdf");
     }
 
     public IActionResult Index()
