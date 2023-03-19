@@ -112,9 +112,9 @@ En ASP.NET MVC, los controladores pueden tener diferentes métodos según las ac
 
 **PartialViewResult**: representa una vista parcial que se va a renderizar como resultado de una acción del controlador.
 
-FileResult: representa un archivo que se va a descargar como resultado de una acción del controlador.
+**FileResult**: representa un archivo que se va a descargar como resultado de una acción del controlador.
 
-JsonResult: representa un objeto JSON que se va a enviar como resultado de una acción del controlador.
+**JsonResult**: representa un objeto JSON que se va a enviar como resultado de una acción del controlador.
 
 RedirectResult: redirige a otra URL como resultado de una acción del controlador.
 
