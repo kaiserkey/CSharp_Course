@@ -15,6 +15,6 @@ public class UsuarioController : Controller
         return View();
     }
 
-    po
+    post
 
 }
