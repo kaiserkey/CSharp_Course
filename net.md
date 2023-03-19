@@ -116,9 +116,9 @@ En ASP.NET MVC, los controladores pueden tener diferentes métodos según las ac
 
 **JsonResult**: representa un objeto JSON que se va a enviar como resultado de una acción del controlador.
 
-RedirectResult: redirige a otra URL como resultado de una acción del controlador.
+**RedirectResult**: redirige a otra URL como resultado de una acción del controlador.
 
-RedirectToRouteResult: redirige a otra ruta como resultado de una acción del controlador.
+**RedirectToRouteResult**: redirige a otra ruta como resultado de una acción del controlador.
 
 HttpStatusCodeResult: representa un código de estado HTTP como resultado de una acción del controlador.
 
