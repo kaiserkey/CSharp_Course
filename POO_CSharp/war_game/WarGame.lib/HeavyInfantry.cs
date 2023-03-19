@@ -6,7 +6,7 @@ public class HeavyInfantry : Soldier
     //el cual sera un poco distinto del de la clase LightInfantry
     protected override void Shoot()
     {
-        base.Shoot(); // usar un comportamiento por d
+        base.Shoot(); // usar un comportamiento por defecto que tenga y tambien podemos extenderlo
     }
 
     protected override void Walk()
