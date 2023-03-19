@@ -32,5 +32,5 @@ namespace personas
     {
         Console.WriteLine("{0} está durmiendo.", Nombre);
     }
-    
+    }
 }
