@@ -7,6 +7,6 @@ namespace animals
 {
     public interface Volador
     {
-        public abstract Volar();
+        void Volar();
     }
 }
