@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace personas
 {
-    public static void public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         
     }
