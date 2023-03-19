@@ -8,29 +8,29 @@ namespace personas
     public class Persona
     {
         public string Nombre { get; set; }
-    public int Edad { get; set; }
-    public string Genero { get; set; }
+        public int Edad { get; set; }
+        public string Genero { get; set; }
 
-    public Persona(string nombre, int edad, string genero)
-    {
-        Nombre = nombre;
-        Edad = edad;
-        Genero = genero;
-    }
+        public Persona(string nombre, int edad, string genero)
+        {
+            Nombre = nombre;
+            Edad = edad;
+            Genero = genero;
+        }
 
-    public void Presentarse()
-    {
-        Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", Nombre, Edad);
-    }
+        public void Presentarse()
+        {
+            Console.WriteLine("Hola, mi nombre es {0} y tengo {1} años.", Nombre, Edad);
+        }
 
-    public void Comer(string comida)
-    {
-        Console.WriteLine("{0} está comiendo {1}.", Nombre, comida);
-    }
+        public void Comer(string comida)
+        {
+            Console.WriteLine("{0} está comiendo {1}.", Nombre, comida);
+        }
 
-    public void Dormir()
-    {
-        Console.WriteLine("{0} está durmiendo.", Nombre);
-    }
+        public void Dormir()
+        {
+            Console.WriteLine("{0} está durmiendo.", Nombre);
+        }
     }
 }
