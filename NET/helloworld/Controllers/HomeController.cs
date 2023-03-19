@@ -2,8 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using helloworld.Models;
 using System.IO;
-Microsoft.Extensions.Hosting.IHostingEnvironment environment;
-
+using Microsoft.AspNetCore.Hosting;
 
 
 namespace helloworld.Controllers;
@@ -11,7 +10,7 @@ namespace helloworld.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private IHostingEnvironment _env;
+    private Microsoft.AspNetCore.Hosting.IHostingEnvironment _env;
 
     public HomeController(ILogger<HomeController> logger, IHostingEnvironment env)
     {
