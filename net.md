@@ -62,3 +62,20 @@ Razor está formado por un conjunto de caracteres especiales, conocidos como "ma
 @using - Utilizado para importar un espacio de nombres
 
 Además de estos marcadores, Razor también admite otros comandos como HTML, CSS y JavaScript, lo que permite a los desarrolladores crear páginas web complejas con sólo unas pocas líneas de código.
+
+
+El comando dotnet tool install --global dotnet-ef instala la herramienta de Entity Framework en el sistema globalmente, lo que permite que se utilice en cualquier proyecto de .NET en el sistema.
+
+Este comando instala la última versión estable de la herramienta de Entity Framework Core en el sistema. Para instalar una versión específica, puedes agregar el argumento --version seguido del número de versión. Por ejemplo, dotnet tool install --global dotnet-ef --version 5.0.11 instalará la versión 5.0.11 de la herramienta.
+
+Es importante tener en cuenta que este comando requiere que tengas instalado el SDK de .NET Core en tu sistema. Si no tienes el SDK instalado, puedes descargarlo desde el sitio web oficial de .NET Core.
+
+Después de instalar la herramienta de Entity Framework, puedes utilizar el comando dotnet ef para ejecutar varios comandos, como crear migraciones, actualizar la base de datos y generar modelos a partir de una base de datos existente.
+
+dotnet ef dbcontext scaffold "server=localhost;port=3306;database=myDatabase;uid=myUsername;password=myPassword;" MySql.Data.EntityFrameworkCore --output-dir Models
+
+En este comando, debes reemplazar los valores localhost, 3306, myDatabase, myUsername y myPassword por los valores correctos para tu configuración de MySQL.
+
+El argumento --output-dir especifica la carpeta donde se generarán los modelos de las tablas de la base de datos. En este caso, los modelos se generarán en la carpeta Models.
+
+Una vez que se complete la ejecución del comando, se generarán los modelos de las tablas de la base de datos en la carpeta Models de tu proyecto. Cada tabla de la base de datos tendrá su propia clase de modelo, que contendrá las propiedades de la tabla como propiedades públicas en la clase.
