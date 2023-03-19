@@ -87,3 +87,18 @@ Una vez instalados los paquetes necesarios, puedes utilizar el comando "dotnet e
 ```dotnet ef dbcontext scaffold "server=localhost;port=3306;database=mydatabase;uid=myuser;password=mypassword;" Pomelo.EntityFrameworkCore.MySql --output-dir Models```
 
 En este ejemplo, "mydatabase" es el nombre de la base de datos MySQL que deseas generar, y "myuser" y "mypassword" son las credenciales necesarias para acceder a la base de datos. El comando generará los archivos de modelo en el directorio "Models" de tu proyecto.
+
+
+dotnet ef migrations add <migration-name>: Este comando crea una nueva migración con el nombre especificado en la base de datos. Las migraciones se utilizan para mantener la integridad de la base de datos a medida que se modifican los modelos. Cada migración representa un conjunto de cambios que se aplicarán a la base de datos.
+
+dotnet ef database update: Este comando aplica todas las migraciones pendientes a la base de datos. Las migraciones se aplican en el orden en que se crearon.
+
+dotnet ef dbcontext scaffold <connection-string> <provider>: Este comando crea automáticamente un contexto de base de datos y clases de entidad basados en una base de datos existente. El parámetro connection-string es una cadena de conexión a la base de datos y provider especifica el proveedor de base de datos que se utilizará.
+
+dotnet ef dbcontext info: Este comando muestra información sobre el contexto de la base de datos, incluyendo el proveedor de base de datos, la cadena de conexión y la lista de entidades que están definidas en el contexto.
+
+dotnet ef dbcontext list: Este comando muestra una lista de los contextos de la base de datos que se han creado en el proyecto.
+
+dotnet ef dbcontext scaffold: Este comando crea automáticamente un contexto de base de datos y clases de entidad basados en una base de datos existente, pero a diferencia del comando anterior, se utiliza para bases de datos de Oracle, PostgreSQL, SQLite, SQL Server, MySQL, etc.
+
+En resumen, estos comandos son muy útiles para trabajar con Entity Framework Core en .NET y para manejar la creación y actualización de la base de datos y sus migraciones, así como para generar clases de entidad a partir de una base de datos existente.
