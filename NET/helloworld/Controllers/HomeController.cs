@@ -20,7 +20,7 @@ public class HomeController : Controller
 
     public string HelloWorld(string nombre)
     {
-        return "Hello World! {0}" , nombre;
+        return ("Hello World! {0}" , nombre);
     }
 
     public IActionResult Privacy()
