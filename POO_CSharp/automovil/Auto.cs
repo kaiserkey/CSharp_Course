@@ -75,6 +75,24 @@ namespace automovil
             set { anio = value; }
         }
 
+        public int Kilometraje
+        {
+            get { return kilometraje; }
+            set { kilometraje = value; }
+        }
+
+        public int Precio
+        {
+            get { return precio; }
+            set { precio = value; }
+        }
+
+        public int Numero_ruedas
+        {
+            get { return numero_ruedas; }
+            set { numero_ruedas = value; }
+        }
+
         
 
         //metodos
