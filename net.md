@@ -75,3 +75,4 @@ Después de instalar la herramienta de Entity Framework, puedes utilizar el coma
 Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecutar los siguientes comandos en la terminal:
 
 1. Instalar el paquete de NuGet "Pomelo.EntityFrameworkCore.MySql":
+```dotnet add package Pomelo.EntityFrameworkCore.MySql```
