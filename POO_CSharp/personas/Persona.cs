@@ -25,7 +25,7 @@ namespace personas
 
         public void Comer(string comida)
         {
-            Console.WriteLine("{0} está comiendo {1}.", Nombre, comida);
+            Console.WriteLine("{0} está bebiendo {1}.", Nombre, comida);
         }
 
         public void Dormir()
