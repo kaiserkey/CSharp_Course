@@ -15,7 +15,9 @@ public class HomeController : Controller
         _env = env;
     }
 
-    public FileStreamResult PDF()
+    public FileStreamResult PDF(){
+        string FilePath = FilePath.Co
+    }
 
     public IActionResult Index()
     {
