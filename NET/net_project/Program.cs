@@ -1,4 +1,4 @@
-usung 
+usung net_project.
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
