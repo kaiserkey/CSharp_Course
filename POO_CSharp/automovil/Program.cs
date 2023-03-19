@@ -15,6 +15,7 @@ namespace automovil
             Console.WriteLine("Marca: " + auto1.Marca);
             Console.WriteLine("Modelo: " + auto1.Modelo);
             auto1.Encender();
+            auto1.Apagar();
         }
     }
 }
