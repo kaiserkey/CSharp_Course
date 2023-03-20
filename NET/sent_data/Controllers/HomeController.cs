@@ -36,7 +36,8 @@ public class HomeController : Controller
     {
         List<Usuario> Usuario = new List<Usuario>(){
             new Usuario(){
-                Nombre = ""
+                Nombre = "Jose",
+                Apellido = ""
             }
         };
         return View();
