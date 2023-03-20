@@ -9,7 +9,7 @@ namespace validations.Models
     public class Usuario
     {
         [Required(ErrorMessage = "Escriba su nombre")]
-        [Min]
+        [MinLength()]
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string NickName { get; set; }
