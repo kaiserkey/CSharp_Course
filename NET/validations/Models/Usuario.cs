@@ -38,6 +38,8 @@ namespace validations.Models
         public bool Activo { get; set; }
 
         [Required(ErrorMessage = "Escriba su fecha de nacimiento")]
+        [DataType(DataType.Date)]
+        []
         public DateTime FechaNacimiento { get; set; }
 
     }
