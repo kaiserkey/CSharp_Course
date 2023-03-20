@@ -11,7 +11,8 @@ namespace validations.Models
         public string Apellido { get; set; }
         public string NickName { get; set; }
         public string Correo { get; set; }
-        public
+        public bool Activo { get; set; }
+        pub
 
     }
 }
