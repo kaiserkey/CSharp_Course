@@ -11,7 +11,7 @@ namespace entity_framework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            var connection 
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=Inmobiliaria;Trusted_Connection=True;ConnectRetryCount=0";
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
