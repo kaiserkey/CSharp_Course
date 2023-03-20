@@ -7,7 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using System;
 
-namespace MiAplicacion
+namespace entity_framework
 {
     public class Startup
     {
