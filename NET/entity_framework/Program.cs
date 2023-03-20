@@ -1,5 +1,4 @@
 using Pomelo.EntityFrameworkCore.MySql;
-using entity_framework.Models.DBContext;
 var DBContext = new DBContext();
 var builder = WebApplication.CreateBuilder(args);
 
