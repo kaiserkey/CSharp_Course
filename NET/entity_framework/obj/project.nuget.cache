@@ -1,20 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "K+XqYDZLLxn9mWJYRyIFqBulMPHR0953uiBU04RSZpnP8wVfFkkhmqDZMGDeltSqQBjCkSdR75KrLhrzfVl1lQ==",
+  "dgSpecHash": "DGPz3WlSOnCPmB3fW/dUt1woK0MSrlWWFsXwwCy0AQV6Y7yZlmqXYB3ScCZ99DAL9FxICZETwJRF55cu8FG2rA==",
   "success": true,
   "projectFilePath": "/home/daniel/Codigo/CSharp/NET/entity_framework/entity_framework.csproj",
   "expectedPackageFiles": [
     "/home/daniel/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.4/microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.2/microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "/home/daniel/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "/home/daniel/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/home/daniel/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
