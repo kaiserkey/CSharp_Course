@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/daniel/Codigo/CSharp/NET/entity_framework/entity_framework.csproj",
         "projectName": "entity_framework",
         "projectPath": "/home/daniel/Codigo/CSharp/NET/entity_framework/entity_framework.csproj",
-        "packagesPath": "/home/daniel/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/daniel/Codigo/CSharp/NET/entity_framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/daniel/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
