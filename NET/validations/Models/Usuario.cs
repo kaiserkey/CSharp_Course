@@ -7,6 +7,10 @@ namespace validations.Models
 {
     public class Usuario
     {
-        
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string NickName { get; set; }
+        public string Correo { get; set; }
+
     }
 }
