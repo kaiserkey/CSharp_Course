@@ -1,14 +1,14 @@
 
 <table>
     <thead>
-    
+        <td>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>NickName</th>
+        </td>
     </thead>
-    <td>
-        <th>Nombre</th>
-        <th>Apellido</th>
-        <th>Correo</th>
-        <th>NickName</th>
-    </td>
+    
     @foreach (var usuario in ViewBag.Usuario)
     {
         <li>@usuario.Nombre</li>
