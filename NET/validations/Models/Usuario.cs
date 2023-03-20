@@ -42,11 +42,6 @@ namespace validations.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime? FechaNacimiento { get; set; }
 
-        public [HttpGet(nameof(ActionName))]
-        public async Task<IActionResult> ActionName(string name)
-        {
-            
-            return Ok;
-        }
+        public IActionR
     }
 }
