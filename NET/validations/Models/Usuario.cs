@@ -31,7 +31,7 @@ namespace validations.Models
         [Required(ErrorMessage = "Escriba su correo")]
         [EmailAddress(ErrorMessage = "El correo no es válido")]
         [MinLength(5, ErrorMessage = "El correo debe tener al menos 5 caracteres")]
-        [MaxLength(10, ErrorMessage = "El correo debe tener máximo 10 caracteres")]
+        [MaxLength(50, ErrorMessage = "El correo debe tener máximo 10 caracteres")]
         public string? Correo { get; set; }
 
         
