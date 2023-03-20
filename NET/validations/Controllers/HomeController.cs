@@ -14,7 +14,7 @@ public class HomeController : Controller
     }
 
     public IActionResult SetUsuario(){
-            return View();
+        return View();
     }
 
     public IActionResult Index()
