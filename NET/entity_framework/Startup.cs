@@ -4,37 +4,29 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using entity_framework.Models;
+using MySql.Data.EntityFrameworkCore.Extensions;
 
-namespace entity_framework
+namespace MyProject
 {
     public class Startup
     {
-        public IConfiguration Configuration { get; }
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        public IConfiguration Configuration { get; }
+
         public void ConfigureServices(IServiceCollection services)
         {
-            // Configuración de la cadena de conexión
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<MyDbContext>(options =>
                 options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Configuración de la inyección de dependencias
-            services.AddScoped<IMyService, MyService>();
-
-            // Configuración de MVC y otros servicios
             services.AddControllersWithViews();
-            services.AddRazorPages();
-            services.AddHttpContextAccessor();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // Configuración del entorno
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -42,10 +34,8 @@ namespace entity_framework
             else
             {
                 app.UseExceptionHandler("/Error");
-                app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -54,9 +44,18 @@ namespace entity_framework
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                    pattern: "{controller}/{action=Index}/{id?}");
             });
         }
+    }
+
+    public class MyDbContext : DbContext
+    {
+        public MyDbContext(DbContextOptions<MyDbContext> options)
+            : base(options)
+        {
+        }
+
+        // Define your DbSet properties here...
     }
 }
