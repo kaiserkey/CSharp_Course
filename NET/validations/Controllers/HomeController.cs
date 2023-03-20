@@ -16,6 +16,8 @@ public class HomeController : Controller
     [BindProperty]
     public Usuario? _Usuario { get; set; }
     public IActionResult SetUsuario(){
+        _Usuario = new Usuario();
+        
         return Json(_Usuario);
     }
 
