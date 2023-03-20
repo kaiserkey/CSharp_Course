@@ -28,6 +28,7 @@ public class HomeController : Controller
         ViewBag.Frutas = Frutas;
         TempData["Frutas"] = Frutas;
         ViewData["Frutas"] = Frutas;
+
         return View();
     }
 
