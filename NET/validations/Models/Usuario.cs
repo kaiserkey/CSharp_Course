@@ -10,7 +10,7 @@ namespace validations.Models
     {
         [Required(ErrorMessage = "Escriba su nombre")]
         [MinLength(5, ErrorMessage = "El nombre debe tener al menos 5 caracteres")]
-        [MaxLength(50, ErrorMessage = "El nombre debe tener máximo 20 caracteres")]
+        [MaxLength(10, ErrorMessage = "El nombre debe tener máximo 10 caracteres")]
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string NickName { get; set; }
