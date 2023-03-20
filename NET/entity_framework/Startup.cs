@@ -11,7 +11,7 @@ namespace entity_framework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=Youtube;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = "Server=localhost;Database=youtube;Uid=tu_usuario;Pwd=123;";
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
