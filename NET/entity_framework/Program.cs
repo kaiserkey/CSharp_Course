@@ -1,5 +1,5 @@
 using Pomelo.EntityFrameworkCore.MySql;
-using Models.DBContext;
+using entity_framework.Models.DBContext;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
