@@ -1,7 +1,4 @@
-using entity_framework;
-
 var builder = WebApplication.CreateBuilder(args);
-
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
