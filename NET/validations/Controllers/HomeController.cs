@@ -13,6 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    []
     public IActionResult SetUsuario(){
         return View();
     }
