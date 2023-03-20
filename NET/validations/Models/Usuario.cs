@@ -10,7 +10,7 @@ namespace validations.Models
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string NickName { get; set; }
-        public 
+        public int Edad { get; set; }
         public string Correo { get; set; }
         public bool Activo { get; set; }
         public DateTime FechaNacimiento { get; set; }
