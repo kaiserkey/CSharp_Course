@@ -34,7 +34,7 @@ public class HomeController : Controller
 
     public IActionResult Usuario()
     {
-        List<>
+        List<Usuario> Usuario = new Usuari
         return View();
     }
 
