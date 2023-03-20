@@ -29,3 +29,14 @@
 /home/daniel/Codigo/CSharp/NET/entity_framework/obj/Debug/net7.0/entity_framework.pdb
 /home/daniel/Codigo/CSharp/NET/entity_framework/obj/Debug/net7.0/entity_framework.genruntimeconfig.cache
 /home/daniel/Codigo/CSharp/NET/entity_framework/obj/Debug/net7.0/ref/entity_framework.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Humanizer.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/MySqlConnector.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/bin/Debug/net7.0/System.CodeDom.dll
+/home/daniel/Codigo/CSharp/NET/entity_framework/obj/Debug/net7.0/entity_framework.csproj.CopyComplete
