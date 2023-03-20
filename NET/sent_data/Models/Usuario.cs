@@ -7,6 +7,6 @@ namespace sent_data.Models
 {
     public class Usuario
     {
-        
+        public string N
     }
 }
