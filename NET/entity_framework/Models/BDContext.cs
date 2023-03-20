@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace entity_framework.Models;
 
-public partial class YoutubeContext : DbContext
+public partial class BDContext : DbContext
 {
-    public YoutubeContext()
+    public BDContext()
     {
     }
 
-    public YoutubeContext(DbContextOptions<YoutubeContext> options)
+    public BDContext(DbContextOptions<BDContext> options)
         : base(options)
     {
     }
