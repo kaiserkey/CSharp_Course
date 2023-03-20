@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddEntityFrameworkMySql().AddDbContext<DBContext>(
-    options => options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"))
+    options => options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
 var app = builder.Build();
