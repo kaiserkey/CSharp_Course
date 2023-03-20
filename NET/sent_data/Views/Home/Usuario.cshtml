@@ -9,9 +9,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        
             @foreach (var usuario in ViewBag.Usuario)
             {
+                <tr>
                 <td>@usuario.Nombre</td>
                 <td>@usuario.Apellido</td>
                 <td>@usuario.Correo</td>
