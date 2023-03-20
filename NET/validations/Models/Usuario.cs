@@ -43,7 +43,7 @@ namespace validations.Models
         public DateTime? FechaNacimiento { get; set; }
 
         public IActionResult SetUsuario(){
-            return View()
+            return View();
         }
     }
 }
