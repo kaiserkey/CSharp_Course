@@ -35,7 +35,7 @@ namespace validations.Models
         public string? Correo { get; set; }
 
         
-        public bool? Activo { get; set; }
+        public bool Activo { get; set; }
 
         [Required(ErrorMessage = "Escriba su fecha de nacimiento")]
         [DataType(DataType.Date)]
