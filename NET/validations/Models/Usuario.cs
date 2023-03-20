@@ -23,9 +23,8 @@ namespace validations.Models
         [MaxLength(10, ErrorMessage = "El nickname debe tener máximo 10 caracteres")]
         public string NickName { get; set; }
 
-        [Required(ErrorMessage = "Escriba su nombre")]
-        [MinLength(5, ErrorMessage = "El nombre debe tener al menos 5 caracteres")]
-        [MaxLength(10, ErrorMessage = "El nombre debe tener máximo 10 caracteres")]
+        [Required(ErrorMessage = "Escriba su edad")]
+        []
         public int Edad { get; set; }
         public string Correo { get; set; }
         public bool Activo { get; set; }
