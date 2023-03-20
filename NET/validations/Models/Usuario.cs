@@ -42,6 +42,8 @@ namespace validations.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime? FechaNacimiento { get; set; }
 
-        public IActionResult SetUsuario
+        public IActionResult SetUsuario(){
+            return
+        }
     }
 }
