@@ -38,7 +38,8 @@ public class HomeController : Controller
             new Usuario(){
                 Nombre = "Jose",
                 Apellido = "Gomez",
-                
+                Usuario = "josegomez",
+                Correo
             }
         };
         return View();
