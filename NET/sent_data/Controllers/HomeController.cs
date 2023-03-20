@@ -45,8 +45,9 @@ public class HomeController : Controller
                 Nombre = "Maria",
                 Apellido = "Gomez",
                 Usuario = "mariagomez",
-                Correo = "
-            }
+                Correo = "mariagomez@gmail.com"
+            },
+            new 
         };
         return View();
     }
