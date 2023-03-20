@@ -16,7 +16,7 @@ public class HomeController : Controller
     [BindProperty]
     public Usuario _Usuario { get; set; }
     public IActionResult SetUsuario(){
-        return View();
+        return Json(_Usuario);
     }
 
     public IActionResult Index()
