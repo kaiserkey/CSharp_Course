@@ -11,31 +11,31 @@ namespace validations.Models
         [Required(ErrorMessage = "Escriba su nombre")]
         [MinLength(5, ErrorMessage = "El nombre debe tener al menos 5 caracteres")]
         [MaxLength(10, ErrorMessage = "El nombre debe tener máximo 10 caracteres")]
-        public string Nombre? { get; set; }
+        public string? Nombre { get; set; }
 
         [Required(ErrorMessage = "Escriba su apellido")]
         [MinLength(5, ErrorMessage = "El apellido debe tener al menos 5 caracteres")]
         [MaxLength(10, ErrorMessage = "El apellido debe tener máximo 10 caracteres")]
-        public string Apellido { get; set; }
+        public string? Apellido { get; set; }
 
         [Required(ErrorMessage = "Escriba su nickname")]
         [MinLength(5, ErrorMessage = "El nickname debe tener al menos 5 caracteres")]
         [MaxLength(10, ErrorMessage = "El nickname debe tener máximo 10 caracteres")]
-        public string NickName { get; set; }
+        public string? NickName { get; set; }
 
         [Required(ErrorMessage = "Escriba su edad")]
         [Range(18, 100, ErrorMessage = "La edad debe estar entre 18 y 100 años")]
         [RegularExpression("^[0-9]*$", ErrorMessage = "La edad debe ser un número")]
-        public int Edad { get; set; }
+        public int? Edad { get; set; }
 
         [Required(ErrorMessage = "Escriba su correo")]
         [EmailAddress(ErrorMessage = "El correo no es válido")]
         [MinLength(5, ErrorMessage = "El correo debe tener al menos 5 caracteres")]
         [MaxLength(10, ErrorMessage = "El correo debe tener máximo 10 caracteres")]
-        public string Correo { get; set; }
+        public string? Correo { get; set; }
 
         
-        public bool Activo { get; set; }
+        public bool? Activo { get; set; }
 
         [Required(ErrorMessage = "Escriba su fecha de nacimiento")]
         [DataType(DataType.Date)]
