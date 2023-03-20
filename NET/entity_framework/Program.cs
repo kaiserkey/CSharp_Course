@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddEntityFrameworkMySql().AddDbContext<DBContext>(
+builder.Services.AddEntityFrameworkMySql().AddDbContext<YoutubeContext>(
     options => options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
