@@ -24,7 +24,8 @@ namespace validations.Models
         public string NickName { get; set; }
 
         [Required(ErrorMessage = "Escriba su edad")]
-        [Range(18, 100, ErrorMessage = "La edad debe estar entre 18 y 100 años"]
+        [Range(18, 100, ErrorMessage = "La edad debe estar entre 18 y 100 años")]
+        []
         public int Edad { get; set; }
         public string Correo { get; set; }
         public bool Activo { get; set; }
