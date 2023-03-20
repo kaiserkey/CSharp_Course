@@ -13,7 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    [Bin]
+    [BindProperty]
     public IActionResult SetUsuario(){
         return View();
     }
