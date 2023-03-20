@@ -1,11 +1,11 @@
 using Pomelo.EntityFrameworkCore.MySql;
-using entity_framework.Models.DBContext;
+using entity_framework.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddEntityFrameworkMySql().AddDbContext<DBContext>(
+builder.Services.AddEntityFrameworkMySql().AddDbContext<MOdels.DBContext>(
     options => options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
