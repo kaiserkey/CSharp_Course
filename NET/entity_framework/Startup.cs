@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
-using MySql.Data.EntityFrameworkCore.Extensions;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using System;
 
-namespace entity_framework
+namespace MiAplicacion
 {
     public class Startup
     {
@@ -17,14 +18,33 @@ namespace entity_framework
 
         public IConfiguration Configuration { get; }
 
+        // Este método se llama en tiempo de ejecución. Use este método para agregar servicios al contenedor.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MyDbContext>(options =>
-                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
-
             services.AddControllersWithViews();
+
+            services.AddDbContext<ApplicationContext>(options =>
+                options.UseMySql(
+                    Configuration.GetConnectionString("DefaultConnection"),
+                    new MySqlServerVersion(new Version(8, 0, 26)),
+                    mySqlOptions => mySqlOptions.CharSetBehavior(CharSetBehavior.NeverAppend)));
+
+            // Agregue el servicio de sesión
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
+            services.AddHttpContextAccessor();
+
+            // Agregue otros servicios según sea necesario.
+
+            services.AddRazorPages();
         }
 
+        // Este método se llama en tiempo de ejecución. Use este método para configurar la canalización de solicitud HTTP.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -36,26 +56,22 @@ namespace entity_framework
                 app.UseExceptionHandler("/Error");
             }
 
+            app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
-    }
-
-    public class MyDbContext : DbContext
-    {
-        public MyDbContext(DbContextOptions<MyDbContext> options)
-            : base(options)
-        {
-        }
-
-        // Define your DbSet properties here...
     }
 }
