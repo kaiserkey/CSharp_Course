@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System
+using System.ComponentModel.DataAnnotations;
 
 namespace validations.Models
 {
     public class Usuario
     {
         [Required(ErrorMessage = "Escriba su nombre")]
+        [Min]
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string NickName { get; set; }
