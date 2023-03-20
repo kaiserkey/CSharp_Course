@@ -25,7 +25,7 @@ namespace validations.Models
 
         [Required(ErrorMessage = "Escriba su edad")]
         [Range(18, 100, ErrorMessage = "La edad debe estar entre 18 y 100 años")]
-        []
+        [RegularExpression("^[0-9]*$", ErrorMessage = "La edad debe ser un número")]
         public int Edad { get; set; }
         public string Correo { get; set; }
         public bool Activo { get; set; }
