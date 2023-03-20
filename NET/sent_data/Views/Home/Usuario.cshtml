@@ -9,15 +9,14 @@
         </tr>
     </thead>
     <tbody>
-        
             @foreach (var usuario in ViewBag.Usuario)
             {
                 <tr>
-                <td>@usuario.Nombre</td>
-                <td>@usuario.Apellido</td>
-                <td>@usuario.Correo</td>
-                <td>@usuario.NickName</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.Apellido</td>
+                    <td>@usuario.Correo</td>
+                    <td>@usuario.NickName</td>
+                </tr>
             }
-        </tr>
     </tbody>
 </table>
