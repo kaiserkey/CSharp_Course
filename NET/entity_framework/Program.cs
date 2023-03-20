@@ -9,6 +9,7 @@ using Pomelo.EntityFrameworkCore.MySql;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
