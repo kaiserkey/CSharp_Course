@@ -38,19 +38,19 @@ public class HomeController : Controller
             new Usuario(){
                 Nombre = "Jose",
                 Apellido = "Gomez",
-                Usuario = "josegomez",
+                NickName = "josegomez",
                 Correo = "josegomez@gmail.com"
             },
             new Usuario(){
                 Nombre = "Maria",
                 Apellido = "Gomez",
-                Usuario = "mariagomez",
+                NickName = "mariagomez",
                 Correo = "mariagomez@gmail.com"
             },
             new Usuario(){
                 Nombre = "Pedro",
                 Apellido = "Gomez",
-                Usuario = "pedrogomez",
+                NickName = "pedrogomez",
                 Correo = "pedrogomez@gmail.com"
             }
         };
