@@ -54,7 +54,7 @@ public class HomeController : Controller
                 Correo = "pedrogomez@gmail.com"
             }
         };
-        ViewData
+        ViewBag.Usuario = Usuario;
         return View();
     }
 
