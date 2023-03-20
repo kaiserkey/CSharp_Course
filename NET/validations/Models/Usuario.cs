@@ -12,7 +12,8 @@ namespace validations.Models
         public string NickName { get; set; }
         public string Correo { get; set; }
         public bool Activo { get; set; }
-        pub
+        public DateTime FechaNacimiento { get; set; }
+
 
     }
 }
