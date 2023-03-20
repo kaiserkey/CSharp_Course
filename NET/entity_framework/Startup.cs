@@ -11,6 +11,7 @@ namespace entity_framework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
