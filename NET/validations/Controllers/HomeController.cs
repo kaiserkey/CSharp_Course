@@ -14,7 +14,7 @@ public class HomeController : Controller
     }
 
     [BindProperty]
-    public Usuario Usuario { get; set; }
+    public Usuario _Usuario { get; set; }
     public IActionResult SetUsuario(){
         return View();
     }
