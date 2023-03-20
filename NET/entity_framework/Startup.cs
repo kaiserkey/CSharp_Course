@@ -11,7 +11,7 @@ namespace entity_framework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            var connection = "Server=localhost;Database=youtube;Uid=tu_usuario;Pwd=123;";
+            var connection = "Server=localhost;Database=Youtube;Uid=root;Pwd=1234;";
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
