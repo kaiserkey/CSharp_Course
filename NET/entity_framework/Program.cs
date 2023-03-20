@@ -1,4 +1,4 @@
-using entity_framework.Startup;
+using Startup;
 
 var builder = WebApplication.CreateBuilder(args);
 
