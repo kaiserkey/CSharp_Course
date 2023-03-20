@@ -39,7 +39,7 @@ public class HomeController : Controller
                 Nombre = "Jose",
                 Apellido = "Gomez",
                 Usuario = "josegomez",
-                Correo
+                Correo = "josegomez"
             }
         };
         return View();
