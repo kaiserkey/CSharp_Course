@@ -8,12 +8,13 @@
             <th>NickName</th>
         </td>
     </thead>
-    
-    @foreach (var usuario in ViewBag.Usuario)
-    {
-        <li>@usuario.Nombre</li>
-        <li>@usuario.Apellido</li>
-        <li>@usuario.Correo</li>
-        <li>@usuario.NickName</li>
-    }
+    <tbody>
+        @foreach (var usuario in ViewBag.Usuario)
+        {
+            <li>@usuario.Nombre</li>
+            <li>@usuario.Apellido</li>
+            <li>@usuario.Correo</li>
+            <li>@usuario.NickName</li>
+        }
+    </tbody>
 </table>
