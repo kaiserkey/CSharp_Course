@@ -77,8 +77,6 @@ Una vez instalados los paquetes necesarios, puedes utilizar el comando "dotnet e
 
 ```dotnet ef dbcontext scaffold "server=localhost;port=3306;database=mydatabase;uid=myuser;password=mypassword;" Pomelo.EntityFrameworkCore.MySql --output-dir Models```
 
-```dotnet ef dbcontext scaffold "server=localhost;port=3306;database=mydatabase;uid=myuser;password=mypassword;" Pomelo.EntityFrameworkCore.MySql --output-dir Entities```
-
 En este ejemplo, "mydatabase" es el nombre de la base de datos MySQL que deseas generar, y "myuser" y "mypassword" son las credenciales necesarias para acceder a la base de datos. El comando generará los archivos de modelo en el directorio "Models" de tu proyecto.
 
 #### Comandos mas usados para EntityFrameworkCore
