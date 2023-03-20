@@ -7,7 +7,7 @@ namespace validations.Models
 {
     public class Usuario
     {
-        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Required(ErrorMessage = "Escriba su no")]
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string NickName { get; set; }
