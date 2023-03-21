@@ -86,6 +86,8 @@ Luego de haber instalado las dependencias para el funcionamiento de la base de d
 En la clase principal de Program.cs importar los paquetes using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration; using project_name.Models;
 
+
+
 #### Comandos mas usados para EntityFrameworkCore
 
 - ```dotnet ef migrations add <migration-name>```: Este comando crea una nueva migración con el nombre especificado en la base de datos. Las migraciones se utilizan para mantener la integridad de la base de datos a medida que se modifican los modelos. Cada migración representa un conjunto de cambios que se aplicarán a la base de datos.
