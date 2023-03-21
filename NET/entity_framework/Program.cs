@@ -1,5 +1,6 @@
 using MySql.Data.EntityFrameworkCore.Extensions; 
 using Microsoft.EntityFrameworkCore;
+using entity_framework.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
