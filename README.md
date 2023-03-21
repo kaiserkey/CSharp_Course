@@ -95,7 +95,10 @@ using Microsoft.Extensions.Configuration; using project_name.Models;
    );`
 
 2. Configurar la cadena de conexion en appsettings.json
-   
+   "AllowedHosts": "*",
+"ConnectionStrings": {
+  "DefaultConnection": "server=servername;port=portnumber;user=username;password=pass;database=databasename;"
+}
 #### Comandos mas usados para EntityFrameworkCore
 
 - ```dotnet ef migrations add <migration-name>```: Este comando crea una nueva migración con el nombre especificado en la base de datos. Las migraciones se utilizan para mantener la integridad de la base de datos a medida que se modifican los modelos. Cada migración representa un conjunto de cambios que se aplicarán a la base de datos.
