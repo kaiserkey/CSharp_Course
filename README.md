@@ -10,7 +10,7 @@
 
 - dotnet new worker -o <nombre-de-la-aplicación> (Crea una aplicación de trabajador .NET Core).
 
-- dotnet new razor -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET Core con
+- dotnet new razor -o <nombre-de-la-aplicación> (Crea una aplicación web ASP.NET .NET Core).
 
 
 ### Comandos para instalar paquetes e inicializar el proyecto
