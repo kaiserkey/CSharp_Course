@@ -101,7 +101,8 @@ using Microsoft.Extensions.Configuration; using project_name.Models;
    }`
 
 3. En la clase DBContext, borramos la cadena de conexión especificada en el método OnConfiguring. Debe quedar el método vacío.
-   
+   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+   {}
 
 #### Comandos mas usados para EntityFrameworkCore
 
