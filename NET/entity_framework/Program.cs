@@ -16,9 +16,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddEntityFrameworkMySQL()
-    .AddDbContext<YoutubeContext>(_ =>
+    .AddDbContext<YoutubeContext>(options =>
     {
-        _.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+        options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
     });
 
 var app = builder.Build();
