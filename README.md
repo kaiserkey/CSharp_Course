@@ -69,7 +69,7 @@ Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecuta
 ```dotnet add package Pomelo.EntityFrameworkCore.MySql```
 2. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
 ```dotnet add package Microsoft.EntityFrameworkCore.Tools```
-    Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
+3. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
 
 Una vez instalados los paquetes necesarios, puedes utilizar el comando "dotnet ef dbcontext scaffold" para generar automáticamente los modelos y el contexto de base de datos a partir de una base de datos MySQL existente. Aquí tienes un ejemplo de cómo utilizar este comando:
