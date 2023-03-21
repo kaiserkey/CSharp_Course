@@ -16,8 +16,13 @@ var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton(builder.Configuration.GetConnectionString("DefaultConnection"));
+builder.Services.AddDbContext<YoutubeContext>(options =>
+    {
+        options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+    });
 
+/* builder.Services.AddSingleton(builder.Configuration.GetConnectionString("DefaultConnection"));
+ */
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
