@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L8Jvybh3/Ma5kSgWPTRbmAdtiPiViKGc4eAMNOkEUGlN6CBJaRz9y0lr9uGzmsEQt3aTNLpXodVtapavXOuV7Q==",
+  "dgSpecHash": "N+qPxuApC6hUNkj+mM5LzqO3AghczM0aCEF2kM+gfpv4zKfvTk8WMCeYzgoL2e808GzZPxLtDyxQ2qDqjk0YzA==",
   "success": true,
   "projectFilePath": "/home/daniel/Codigo/CSharp/NET/entity_framework/entity_framework.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "/home/daniel/.nuget/packages/mysql.data/8.0.32/mysql.data.8.0.32.nupkg.sha512",
     "/home/daniel/.nuget/packages/mysql.data.entityframeworkcore/8.0.22/mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
     "/home/daniel/.nuget/packages/mysql.entityframeworkcore/7.0.0/mysql.entityframeworkcore.7.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/home/daniel/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/home/daniel/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
