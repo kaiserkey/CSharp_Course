@@ -80,7 +80,8 @@ Una vez instalados los paquetes necesarios, puedes utilizar el comando "dotnet e
 
 En este ejemplo, "mydatabase" es el nombre de la base de datos MySQL que deseas generar, y "myuser" y "mypassword" son las credenciales necesarias para acceder a la base de datos. El comando generará los archivos de modelo en el directorio "Models" de tu proyecto.
 
-### Cone
+### Conexion a la base de datos
+Lueg
 
 #### Comandos mas usados para EntityFrameworkCore
 
