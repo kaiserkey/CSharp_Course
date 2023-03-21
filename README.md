@@ -100,7 +100,7 @@ using Microsoft.Extensions.Configuration; using project_name.Models;
    "DefaultConnection": "server=servername;port=portnumber;user=username;password=pass;database=databasename;"
    }`
 
-3
+3. 
 
 #### Comandos mas usados para EntityFrameworkCore
 
