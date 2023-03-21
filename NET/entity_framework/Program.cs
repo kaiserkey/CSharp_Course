@@ -12,7 +12,7 @@ using entity_framework.Models;
 using MySql.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
 var builder = WebApplication.CreateBuilder(args);
-
+var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
