@@ -57,7 +57,7 @@ Además de estos marcadores, Razor también admite otros comandos como HTML, CSS
 
 El comando `dotnet tool install --global dotnet-ef` instala la herramienta de Entity Framework en el sistema globalmente, lo que permite que se utilice en cualquier proyecto de .NET en el sistema.
 
-Este comando instala la última versión estable de la herramienta de Entity Framework Core en el sistema. Para instalar una versión específica, puedes agregar el argumento --version seguido del número de versión. Por ejemplo, dotnet tool install --global dotnet-ef --version 5.0.11 instalará la versión 5.0.11 de la herramienta.
+Este comando instala la última versión estable de la herramienta de Entity Framework Core en el sistema. Para instalar una versión específica, puedes agregar el argumento --version seguido del número de versión.
 
 Es importante tener en cuenta que este comando requiere que tengas instalado el SDK de .NET Core en tu sistema. Si no tienes el SDK instalado, puedes descargarlo desde el sitio web oficial de .NET Core.
 
@@ -67,9 +67,9 @@ Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecuta
 
 1. Instalar el paquete de NuGet "Pomelo.EntityFrameworkCore.MySql":
 ```dotnet add package Pomelo.EntityFrameworkCore.MySql```
-2. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
+1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
 ```dotnet add package Microsoft.EntityFrameworkCore.Tools```
-3. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
+1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
 1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore":
    ` dotnet add package Microsoft.EntityFrameworkCore `
