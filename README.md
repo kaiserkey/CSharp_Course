@@ -55,7 +55,7 @@ Además de estos marcadores, Razor también admite otros comandos como HTML, CSS
 
 ### Usar el ORM de Entity Framework Core
 
-El comando dotnet tool install --global dotnet-ef instala la herramienta de Entity Framework en el sistema globalmente, lo que permite que se utilice en cualquier proyecto de .NET en el sistema.
+El comando `dotnet tool install --global dotnet-ef` instala la herramienta de Entity Framework en el sistema globalmente, lo que permite que se utilice en cualquier proyecto de .NET en el sistema.
 
 Este comando instala la última versión estable de la herramienta de Entity Framework Core en el sistema. Para instalar una versión específica, puedes agregar el argumento --version seguido del número de versión. Por ejemplo, dotnet tool install --global dotnet-ef --version 5.0.11 instalará la versión 5.0.11 de la herramienta.
 
