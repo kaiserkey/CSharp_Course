@@ -87,14 +87,14 @@ En la clase principal de Program.cs importar los paquetes using Microsoft.Entity
 using Microsoft.Extensions.Configuration; using project_name.Models;
 
 1. Utilizar el siguiente codigo para realizar la conexion a la base de datos
-   ```builder.Services.AddDbContext<YoutubeContext>(
+   `builder.Services.AddDbContext<YoutubeContext>(
       options => options.UseMySql(
          configuration.GetConnectionString("DefaultConnection"),
          ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
       )
-   );```
+   );`
 
-
+2. 
 #### Comandos mas usados para EntityFrameworkCore
 
 - ```dotnet ef migrations add <migration-name>```: Este comando crea una nueva migración con el nombre especificado en la base de datos. Las migraciones se utilizan para mantener la integridad de la base de datos a medida que se modifican los modelos. Cada migración representa un conjunto de cambios que se aplicarán a la base de datos.
