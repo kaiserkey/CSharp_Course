@@ -70,7 +70,7 @@ Para configurar e instalar EntityFrameworkCore con MySQL en .NET, puedes ejecuta
 1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Tools":
 ```dotnet add package Microsoft.EntityFrameworkCore.Tools```
 1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore.Design":
-```dotnet add package Microsoft.EntityFrameworkCore.Design```
+```dotnet add package Microsoft.EntityFrameworkCore.Design``
 1. Instalar el paquete de NuGet "Microsoft.EntityFrameworkCore":
    ` dotnet add package Microsoft.EntityFrameworkCore `
 
