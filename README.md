@@ -87,13 +87,13 @@ En la clase principal de Program.cs importar los paquetes using Microsoft.Entity
 using Microsoft.Extensions.Configuration; using project_name.Models;
 
 1. Utilizar el siguiente codigo para realizar la conexion a la base de datos
+   `builder.Services.AddDbContext<YoutubeContext>(
+      options => options.UseMySql(
+         configuration.GetConnectionString("DefaultConnection"),
+         ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
+      )
+   );`
 
-`builder.Services.AddDbContext<YoutubeContext>(
-	options => options.UseMySql(
-		configuration.GetConnectionString("DefaultConnection"),
-		ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
-	)
-);`
 
 #### Comandos mas usados para EntityFrameworkCore
 
