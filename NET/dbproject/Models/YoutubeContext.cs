@@ -19,7 +19,7 @@ public partial class YoutubeContext : DbContext
 
     public virtual DbSet<Video> Videos { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder);
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
