@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using MySql.EntityFrameworkCore.Extensions;
 using entity_framework.Models;
 using MySql.EntityFrameworkCore;
-otnet add package Pomelo.EntityFrameworkCore.MySql
+using Pomelo.EntityFrameworkCore.MySql
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
