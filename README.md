@@ -100,7 +100,8 @@ using Microsoft.Extensions.Configuration; using project_name.Models;
    "DefaultConnection": "server=servername;port=portnumber;user=username;password=pass;database=databasename;"
    }`
 
-3. En la clase DBContext, borramos la cadena de conexión especificada en el método OnConfiguring. De método vacío
+3. En la clase DBContext, borramos la cadena de conexión especificada en el método OnConfiguring. Debe quedar el método vacío.
+   
 
 #### Comandos mas usados para EntityFrameworkCore
 
