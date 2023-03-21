@@ -7,7 +7,7 @@ var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<YoutubeContext>(
+builder.Services.AddDbContext<DBContext>(
 	options => options.UseMySql(
 		configuration.GetConnectionString("DefaultConnection"),
 		ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
