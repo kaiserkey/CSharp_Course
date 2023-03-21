@@ -18,7 +18,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<YoutubeContext>(options =>
     {
-        options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+        options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"));
     });
 
 /* builder.Services.AddSingleton(builder.Configuration.GetConnectionString("DefaultConnection"));
