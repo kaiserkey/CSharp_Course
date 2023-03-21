@@ -4,13 +4,14 @@ using dbproject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
+var connectionString = configuration.GetConnectionString("DefaultConnection");
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DBContext>(
 	options => options.UseMySql(
-		configuration.GetConnectionString("DefaultConnection"),
-		ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
+		connectionString,
+		ServerVersion.AutoDetect(connectionString)
 	)
 );
 
