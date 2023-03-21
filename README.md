@@ -83,7 +83,7 @@ En este ejemplo, "mydatabase" es el nombre de la base de datos MySQL que deseas 
 ### Conexion a la base de datos
 Luego de haber instalado las dependencias para el funcionamiento de la base de datos sera necesario configurar la conexion a la base de datos.
 
-
+En la clase principal de P
 
 #### Comandos mas usados para EntityFrameworkCore
 
