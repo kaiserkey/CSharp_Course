@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<YoutubeContext>(
+builder.Services.AddDbContext<DataContext>(
 	options => options.UseSqlServer(
 		configuration["ConnectionStrings:DefaultConnection"]
 	)
