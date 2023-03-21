@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wh7glMWkaZHPkXI8hFipDgdF+501P4YmlzZ4pN3Q5f2TNvlSyKkxzI6ztl70AQWxMJ5F5xnKHqCgA0GSUcNb9g==",
+  "dgSpecHash": "L8Jvybh3/Ma5kSgWPTRbmAdtiPiViKGc4eAMNOkEUGlN6CBJaRz9y0lr9uGzmsEQt3aTNLpXodVtapavXOuV7Q==",
   "success": true,
   "projectFilePath": "/home/daniel/Codigo/CSharp/NET/entity_framework/entity_framework.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "/home/daniel/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/daniel/.nuget/packages/mysql.data/8.0.32/mysql.data.8.0.32.nupkg.sha512",
+    "/home/daniel/.nuget/packages/mysql.data.entityframeworkcore/8.0.22/mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
     "/home/daniel/.nuget/packages/mysql.entityframeworkcore/7.0.0/mysql.entityframeworkcore.7.0.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
     "/home/daniel/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
