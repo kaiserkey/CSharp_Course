@@ -18,7 +18,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddEntityFrameworkMySQL()
     .AddDbContext<YoutubeContext>(options =>
     {
-        options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"));
+        options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
     });
 
 var app = builder.Build();
