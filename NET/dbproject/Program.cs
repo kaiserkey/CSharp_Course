@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using dbproject.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<YoutubeContext>(
+	options => options.UseMySql(
+		configuration["ConnectionStrings:DefaultConnection"],
+		ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
+	)
+);
 
 var app = builder.Build();
 
