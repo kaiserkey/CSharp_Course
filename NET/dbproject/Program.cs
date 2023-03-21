@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<YoutubeContext>(
 	options => options.UseMySql(
-		configuration["ConnectionStrings:DefaultConnection"],
+		configuration.GetConnectionString("DefaultConnection"),
 		ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"])
 	)
 );
