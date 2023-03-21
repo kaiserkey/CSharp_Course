@@ -83,7 +83,9 @@ En este ejemplo, "mydatabase" es el nombre de la base de datos MySQL que deseas 
 ### Conexion a la base de datos
 Luego de haber instalado las dependencias para el funcionamiento de la base de datos sera necesario configurar la conexion a la base de datos.
 
-En la clase principal de P
+En la clase principal de Program.cs importar los paquetes using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using dbproject.Models;
 
 #### Comandos mas usados para EntityFrameworkCore
 
