@@ -86,6 +86,7 @@ Luego de haber instalado las dependencias para el funcionamiento de la base de d
 En la clase principal de Program.cs importar los paquetes using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration; using project_name.Models;
 
+1. Utilizar el siguiente codigo para realizar la conexion 
 `builder.Services.AddDbContext<YoutubeContext>(
 	options => options.UseMySql(
 		configuration.GetConnectionString("DefaultConnection"),
