@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/bin/Debug/net6.0/5.EstructuraSwitch
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/bin/Debug/net6.0/5.EstructuraSwitch.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/bin/Debug/net6.0/5.EstructuraSwitch.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/bin/Debug/net6.0/5.EstructuraSwitch.dll
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/bin/Debug/net6.0/5.EstructuraSwitch.pdb
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.dll
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/refint/5.EstructuraSwitch.dll
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.pdb
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/5.EstructuraSwitch.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/5.EstructuraSwitch/obj/Debug/net6.0/ref/5.EstructuraSwitch.dll

@@ -51,7 +51,71 @@ Razor está formado por un conjunto de caracteres especiales, conocidos como "ma
 `@using` - Utilizado para importar un espacio de nombres
 
 Además de estos marcadores, Razor también admite otros comandos como HTML, CSS y JavaScript, lo que permite a los desarrolladores crear páginas web complejas con sólo unas pocas líneas de código.
+###Conexion con Mysql
 
+1. Agregar el Paquete: `dotnet add package MySql.Data`
+
+2. Crear una clase MySqlDatabase con el siguiente codigo en la carpeta de Models
+```
+   using System;
+   using MySql.Data.MySqlClient;
+
+   namespace Inmobiliaria.Models
+   {
+      public class MySqlDatabase : IDisposable
+      {
+         public MySqlConnection Connection;
+         public string connectionString = "server=localhost;port=3306;database=databaseName;uid=userName;password=password"
+
+         public MySqlDatabase(string connectionString)
+         {
+               Connection = new MySqlConnection(connectionString);
+               this.Connection.Open();
+         }
+
+         public void Dispose()
+         {
+               Connection.Close();
+         }
+      }
+   }
+```
+1. Luego en cada controlador agregar en el contructor la conexion a la base de datos y enviarla a cada metodo de los modelos que la usen
+
+`using Inmobiliaria.Models;`
+`private MySqlDatabase con { get; set; }`
+`public InmuebleController() { con = new MySqlDatabase(); }`
+
+###CODE GENERATOR
+#####Instalar la libreria:
+`dotnet tool install --global dotnet-aspnet-codegenerator --version 6.0.13`
+#####Agregar la dependencia:
+`dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design`
+#####Comandos mas usados:
+1. `dotnet-aspnet-codegenerator controller -name "PropietariosController" -outDir "Controllers" -namespace "vsTest.Controllers" -f -actions`: 
+   - controller: es el generador que se está utilizando.
+   - name "PropietariosController": es el nombre que se le va a dar al controlador que se va a generar. En este caso, se va a generar un controlador con el nombre "PropietariosController".
+   - outDir "Controllers": especifica el directorio donde se van a guardar los archivos del controlador generado. En este caso, los archivos se guardarán en el directorio "Controllers".
+   - namespace "vsTest.Controllers": especifica el espacio de nombres del controlador generado. En este caso, el controlador se creará en el espacio de nombres "vsTest.Controllers".
+   - f: indica que se sobrescriban los archivos existentes si ya existen en el directorio de salida.
+   - actions: indica que se deben generar métodos de acción para las operaciones CRUD básicas (Create Read, Update, Delete).
+
+2. `dotnet-aspnet-codegenerator view Index List -outDir "Views/Propietarios" -udl --model vsTest.Models.Propietario -f`:
+   - Index: el nombre de la acción del controlador para la que se está generando la vista.
+   List: el nombre del archivo de diseño a utilizar para la vista generada.
+   **Tipos de vistas**: **Empty, Create, Edit, Delete, Details, List**
+   - outDir "Views/Propietarios": especifica el directorio de salida para los archivos generados, que en este caso es Views/Propietarios.
+   - udl: especifica que la vista debe utilizar los datos no tipados (untyped) IQueryable en lugar de los modelos tipados (typed) IEnumerable o List.
+   - -model vsTest.Models.Propietario: especifica el modelo para el cual se está generando la vista. En este caso, la vista se generará para la entidad Propietario definida en la clase vsTest.Models.Propietario.
+   - f: especifica que se sobrescriban los archivos de vista existentes sin preguntar.
+
+3. `dotnet aspnet-codegenerator identity --relativeFolderPath CarpetaDelCodigo`: este comando se utiliza para generar código de inicio de sesión, registro y gestión de usuarios utilizando el marco de autenticación y autorización Identity de ASP.NET Core. Reemplaza "CarpetaDelCodigo" por la ruta relativa de la carpeta donde se ubicará el código generado.
+
+4. `dotnet aspnet-codegenerator area --name NombreDelArea`: este comando se utiliza para generar un área de la aplicación, que permite organizar el código en secciones lógicas. Reemplaza "NombreDelArea" por el nombre que desees darle al área.
+
+5. `dotnet aspnet-codegenerator razorpage --name NombreDeLaPagina -m Modelo --relativeFolderPath CarpetaDeLaPagina -dc ContextoDeDatos`: este comando se utiliza para generar una página Razor con el modelo de datos y las acciones necesarias. Reemplaza "NombreDeLaPagina" por el nombre que desees darle a la página, "Modelo" por el nombre de la clase del modelo, "CarpetaDeLaPagina" por la ruta relativa de la carpeta donde se ubicará la página y "ContextoDeDatos" por el nombre del contexto de datos.
+
+6. `dotnet aspnet-codegenerator api -name NombreDelControlador -m Modelo -dc ContextoDeDatos --relativeFolderPath CarpetaDelControlador`: este comando se utiliza para generar un controlador de API con acciones CRUD básicas para el modelo especificado. Reemplaza "NombreDelControlador" por el nombre que desees darle al controlador, "Modelo" por el nombre de la clase del modelo, "ContextoDeDatos" por el nombre del contexto de datos y "CarpetaDelControlador" por la ruta relativa de la carpeta donde se ubicará el controlador.
 
 ### Usar el ORM de Entity Framework Core
 
@@ -97,7 +161,7 @@ using Microsoft.Extensions.Configuration; using project_name.Models;
 2. Configurar la cadena de conexion en appsettings.json
    `"AllowedHosts": "*",
    "ConnectionStrings": {
-   "DefaultConnection": "server=servername;port=portnumber;user=username;password=pass;database=databasename;"
+   "DefaultConnection": "server=localhost;port=3306;database=mydatabase;uid=myuser;password=mypassword;"
    }`
 
 3. En la clase DBContext, borramos la cadena de conexión especificada en el método OnConfiguring. Debe quedar el método vacío.
@@ -152,4 +216,5 @@ En ASP.NET MVC, los controladores pueden tener diferentes métodos según las ac
 
 - **ObjectResult**: representa cualquier objeto que se va a enviar como resultado de una acción del controlador.
 
-- **Task<IActionResult>**: es un método asincrónico que devuelve un objeto IActionResult.
+- **`Task<IActionResult>`**: es un método asincrónico que devuelve un objeto IActionResult.
+

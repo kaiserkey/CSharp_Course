@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/7.CicloFor.csproj": {}
+  },
+  "projects": {
+    "/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/7.CicloFor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/7.CicloFor.csproj",
+        "projectName": "7.CicloFor",
+        "projectPath": "/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/7.CicloFor.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

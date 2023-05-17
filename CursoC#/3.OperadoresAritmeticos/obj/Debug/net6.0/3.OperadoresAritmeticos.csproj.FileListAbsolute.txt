@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/bin/Debug/net6.0/3.OperadoresAritmeticos
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/bin/Debug/net6.0/3.OperadoresAritmeticos.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/bin/Debug/net6.0/3.OperadoresAritmeticos.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/bin/Debug/net6.0/3.OperadoresAritmeticos.dll
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/bin/Debug/net6.0/3.OperadoresAritmeticos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.dll
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/refint/3.OperadoresAritmeticos.dll
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/3.OperadoresAritmeticos.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/3.OperadoresAritmeticos/obj/Debug/net6.0/ref/3.OperadoresAritmeticos.dll

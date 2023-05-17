@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/bin/Debug/net6.0/1.HelloWorld
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/bin/Debug/net6.0/1.HelloWorld.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/bin/Debug/net6.0/1.HelloWorld.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/bin/Debug/net6.0/1.HelloWorld.dll
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/bin/Debug/net6.0/1.HelloWorld.pdb
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.dll
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/refint/1.HelloWorld.dll
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.pdb
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/1.HelloWorld.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/1.HelloWorld/obj/Debug/net6.0/ref/1.HelloWorld.dll

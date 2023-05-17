@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/bin/Debug/net6.0/0.Ejercicios
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/bin/Debug/net6.0/0.Ejercicios.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/bin/Debug/net6.0/0.Ejercicios.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/bin/Debug/net6.0/0.Ejercicios.dll
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/bin/Debug/net6.0/0.Ejercicios.pdb
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.dll
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/refint/0.Ejercicios.dll
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.pdb
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/0.Ejercicios.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/0.Ejercicios/obj/Debug/net6.0/ref/0.Ejercicios.dll

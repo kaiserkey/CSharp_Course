@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/bin/Debug/net6.0/2.TiposDeDatos
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/bin/Debug/net6.0/2.TiposDeDatos.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/bin/Debug/net6.0/2.TiposDeDatos.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/bin/Debug/net6.0/2.TiposDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/bin/Debug/net6.0/2.TiposDeDatos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/refint/2.TiposDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/2.TiposDeDatos.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/2.TiposDeDatos/obj/Debug/net6.0/ref/2.TiposDeDatos.dll
