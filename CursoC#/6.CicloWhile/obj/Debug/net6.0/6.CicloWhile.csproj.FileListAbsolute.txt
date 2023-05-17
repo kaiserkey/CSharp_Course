@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/bin/Debug/net6.0/6.CicloWhile
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/bin/Debug/net6.0/6.CicloWhile.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/bin/Debug/net6.0/6.CicloWhile.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/bin/Debug/net6.0/6.CicloWhile.dll
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/bin/Debug/net6.0/6.CicloWhile.pdb
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.dll
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/refint/6.CicloWhile.dll
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.pdb
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/6.CicloWhile.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/6.CicloWhile/obj/Debug/net6.0/ref/6.CicloWhile.dll
