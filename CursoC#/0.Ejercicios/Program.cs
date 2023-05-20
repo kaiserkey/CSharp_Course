@@ -7,46 +7,36 @@ namespace _0.Ejercicios
         {
             
             /* 
-            a. Implementa tu programa en un proyecto de consola llamado calculadora.cs.
-            b. Tu programa pedirá al usuario dos números y los almacenará en las siguientes variables num1 y num2.
-            c. Tu programa puede recibir números enteros y decimales.
-            d. Tu programa deberá imprimir solo la operación que el usuario escriba en la consola. 
+                a. Implementa tu programa en un proyecto de consola llamado arreglos.cs.
+                b. Crea cuatro arreglos dónde se almacene: nombre, apellido, edad, sexo.
+                c. Crea los arreglos con los siguientes nombres: arreglo_n, arreglo_a, arreglo_e, arreglo_s.
+                d. Imprima los arreglos en el orden estipulado en la actividad.
             */
 
-            Console.Write("Ingrese el primer numero: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Ingrese el segundo numero: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-            
+            string[] arreglo_n = new string[5];
+            string[] arreglo_a = new string[5];
+            int[] arreglo_e = new int[5];
+            char[] arreglo_s = new char[5];
 
-            Console.WriteLine("+ -> Suma");
-            Console.WriteLine("- -> Resta");
-            Console.WriteLine("* -> Multiplicacion");
-            Console.WriteLine("/ -> Division");
-
-            Console.Write("Ingrese el signo de la operacion a realizar:");
-            string operacion = Console.ReadLine();
-            
-            switch (operacion)
-            {
-                case "+":
-                    Console.WriteLine("La suma de {0} y {1} es: {2}", num1, num2, num1 + num2);
-                    break;
-                case "-":
-                    Console.WriteLine("La resta de {0} y {1} es: {2}", num1, num2, num1 - num2);
-                    break;
-                case "*":
-                    Console.WriteLine("La multiplicacion de {0} y {1} es: {2}", num1, num2, num1 * num2);
-                    break;
-                case "/":
-                    Console.WriteLine("La division de {0} y {1} es: {2}", num1, num2, num1 / num2);
-                    break;
-                default:
-                    Console.WriteLine("La operacion ingresada no es valida!");
-                    break;
+            for(int i = 0; i<arreglo_n.Length; i++){
+                Console.Write("Ingrese el nombre de la persona N° {0}: ", i+1);
+                arreglo_n[i] = Console.ReadLine();
+                Console.Write("Ingrese el apellido de la persona N° {0}: ", i+1);
+                arreglo_a[i] = Console.ReadLine();
+                Console.Write("Ingrese la edad de la persona N° {0}: ", i+1);
+                arreglo_e[i] = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ingrese el sexo de la persona N° {0} (M -> Para Masculino, F -> Para Femenino) ", i+1);
+                arreglo_s[i] = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine();
             }
 
-
+            for(int i = 0; i<arreglo_n.Length; i++){
+                Console.WriteLine("Nombre -> {0}", arreglo_n[i]);
+                Console.WriteLine("Apellido -> {0}", arreglo_a[i]);
+                Console.WriteLine("Edad -> {0}", arreglo_e[i]);
+                Console.WriteLine("Sexo -> {0}", arreglo_s[i]);
+                Console.WriteLine("--------------------------------------");
+            }
         }
     }
 }

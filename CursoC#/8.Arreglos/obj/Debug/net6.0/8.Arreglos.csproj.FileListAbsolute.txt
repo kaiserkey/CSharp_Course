@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/bin/Debug/net6.0/8.Arreglos
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/bin/Debug/net6.0/8.Arreglos.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/bin/Debug/net6.0/8.Arreglos.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/bin/Debug/net6.0/8.Arreglos.dll
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/bin/Debug/net6.0/8.Arreglos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.dll
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/refint/8.Arreglos.dll
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/8.Arreglos.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/8.Arreglos/obj/Debug/net6.0/ref/8.Arreglos.dll

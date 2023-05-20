@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/bin/Debug/net6.0/7.CicloFor
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/bin/Debug/net6.0/7.CicloFor.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/bin/Debug/net6.0/7.CicloFor.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/bin/Debug/net6.0/7.CicloFor.dll
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/bin/Debug/net6.0/7.CicloFor.pdb
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.dll
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/refint/7.CicloFor.dll
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.pdb
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/7.CicloFor.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/7.CicloFor/obj/Debug/net6.0/ref/7.CicloFor.dll

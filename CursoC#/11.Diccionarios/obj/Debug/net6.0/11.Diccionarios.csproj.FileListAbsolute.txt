@@ -1,0 +1,15 @@
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/bin/Debug/net6.0/11.Diccionarios
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/bin/Debug/net6.0/11.Diccionarios.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/bin/Debug/net6.0/11.Diccionarios.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/bin/Debug/net6.0/11.Diccionarios.dll
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/bin/Debug/net6.0/11.Diccionarios.pdb
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.dll
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/refint/11.Diccionarios.dll
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.pdb
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/11.Diccionarios.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/11.Diccionarios/obj/Debug/net6.0/ref/11.Diccionarios.dll
