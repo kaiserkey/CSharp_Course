@@ -1,0 +1,17 @@
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/14.BasesDeDatos
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/14.BasesDeDatos.deps.json
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/14.BasesDeDatos.runtimeconfig.json
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/14.BasesDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/14.BasesDeDatos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/bin/Debug/net6.0/Npgsql.dll
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.csproj.CopyComplete
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/refint/14.BasesDeDatos.dll
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.pdb
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/14.BasesDeDatos.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/obj/Debug/net6.0/ref/14.BasesDeDatos.dll

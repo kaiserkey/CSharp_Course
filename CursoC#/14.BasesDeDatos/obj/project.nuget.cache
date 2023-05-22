@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1kZXM8ttMCS6nVrml4UWVVqt6or2V7r+G17sRXcIV6VhkUJTWWtJIi5gOw7KW83eF2hJuq9jrcYsuqBbjahEUw==",
+  "success": true,
+  "projectFilePath": "/home/daniel/Codigo/CSharp/CursoC#/14.BasesDeDatos/14.BasesDeDatos.csproj",
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/npgsql/6.0.0/npgsql.6.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
