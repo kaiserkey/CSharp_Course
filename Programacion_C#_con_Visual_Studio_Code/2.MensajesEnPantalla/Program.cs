@@ -15,6 +15,8 @@ namespace _2.MensajesEnPantalla
             Console.WriteLine("Introduce una linea de texto: ");
             string datos = Console.ReadLine();
             Console.WriteLine("Los datos que has introducido son: " + datos);
+
+            /* INterpolacion de variab */
         }
     }
 }
