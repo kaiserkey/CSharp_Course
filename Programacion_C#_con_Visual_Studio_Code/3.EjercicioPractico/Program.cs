@@ -1,5 +1,4 @@
-﻿using Internal;
-using System;
+﻿using System;
 namespace _3.EjercicioPractico
 {
     class Program
@@ -20,7 +19,8 @@ namespace _3.EjercicioPractico
             Console.WriteLine($"Nombre: {nombre}");
             Console.WriteLine($"Apellido: {apellido}");
             Console.WriteLine($"Edad: {edad}");
-            
+            Console.WriteLine($"Hobby: {hobby}");
+            Console.WriteLine("=====================================");
         }
     }
 }
