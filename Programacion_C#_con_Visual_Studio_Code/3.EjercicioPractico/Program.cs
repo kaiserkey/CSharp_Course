@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 namespace _3.EjercicioPractico
 {
     class Program
@@ -15,7 +16,7 @@ namespace _3.EjercicioPractico
             Console.Write("Introduce tu edad: ");
             edad = Convert.ToInt32(Console.ReadLine());
 
-            
+            Console.WriteLine("==========INFORMACION BASICA")
         }
     }
 }
