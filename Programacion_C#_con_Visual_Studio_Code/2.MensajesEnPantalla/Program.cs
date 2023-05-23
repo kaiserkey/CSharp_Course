@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 namespace _2.MensajesEnPantalla
 {
     class Program
@@ -12,8 +13,8 @@ namespace _2.MensajesEnPantalla
             Console.WriteLine("Y este es otro texto que se imprime en la linea de abajo");
 
             /* ReadLine */
-            string datos;
-            
+            string datos = Console.ReadLine();
+            Console.WriteLine("Los datos que has introducido son: " + datos);
         }
     }
 }
