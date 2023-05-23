@@ -19,7 +19,7 @@ namespace _2.MensajesEnPantalla
             /* INterpolacion de variables */
             string nombre = "Juan";
             int edad = 18;
-            
+            Console.WriteLine($"Hola {nombre}, tienes {edad} años");
         }
     }
 }
