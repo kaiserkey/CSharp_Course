@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.Write("Esto es un ");
+            Console.Write("Esto es un texto que se imprime en una lin");
         }
     }
 }
