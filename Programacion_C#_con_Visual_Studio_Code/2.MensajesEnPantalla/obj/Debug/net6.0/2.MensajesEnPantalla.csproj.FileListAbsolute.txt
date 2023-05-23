@@ -1,0 +1,5 @@
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/2.MensajesEnPantalla/obj/Debug/net6.0/2.MensajesEnPantalla.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/2.MensajesEnPantalla/obj/Debug/net6.0/2.MensajesEnPantalla.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/2.MensajesEnPantalla/obj/Debug/net6.0/2.MensajesEnPantalla.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/2.MensajesEnPantalla/obj/Debug/net6.0/2.MensajesEnPantalla.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/2.MensajesEnPantalla/obj/Debug/net6.0/2.MensajesEnPantalla.csproj.CoreCompileInputs.cache
