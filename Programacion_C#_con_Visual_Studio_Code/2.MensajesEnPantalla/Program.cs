@@ -10,6 +10,8 @@ namespace _2.MensajesEnPantalla
 
             Console.WriteLine("\nEsto es un texto que se imprime con un salto de linea");
             Console.WriteLine("Y este es otro texto que se imprime en la linea de abajo");
+
+            /* ReadLine */
         }
     }
 }
