@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Cosole
+            Console.Write("Esto es un ");
         }
     }
 }
