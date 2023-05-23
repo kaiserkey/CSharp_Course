@@ -12,6 +12,8 @@ namespace _3.EjercicioPractico
             nombre = Console.ReadLine();
             Console.Write("Introduce tu apellido/s: ");
             apellido = Console.ReadLine();
+            Console.Write("Introduce tus hobbys: ");
+            hobby = Console.ReadLine();
             Console.Write("Introduce tu edad: ");
             edad = Convert.ToInt32(Console.ReadLine());
 
