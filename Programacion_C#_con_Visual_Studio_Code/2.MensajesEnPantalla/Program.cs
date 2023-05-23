@@ -16,7 +16,10 @@ namespace _2.MensajesEnPantalla
             string datos = Console.ReadLine();
             Console.WriteLine("Los datos que has introducido son: " + datos);
 
-            /* INterpolacion de variab */
+            /* INterpolacion de variables */
+            string nombre = "Juan";
+            int edad = 18;
+            
         }
     }
 }
