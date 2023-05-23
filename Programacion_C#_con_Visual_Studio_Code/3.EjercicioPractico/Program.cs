@@ -16,7 +16,7 @@ namespace _3.EjercicioPractico
             Console.Write("Introduce tu edad: ");
             edad = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("==========INFORMACION BASICA")
+            Console.WriteLine("==========INFORMACION BASICA==========")
         }
     }
 }
