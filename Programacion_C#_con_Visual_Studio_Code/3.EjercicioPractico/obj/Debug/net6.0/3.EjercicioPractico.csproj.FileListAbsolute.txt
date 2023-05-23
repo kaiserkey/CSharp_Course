@@ -1,0 +1,5 @@
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.csproj.AssemblyReference.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.AssemblyInfoInputs.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.AssemblyInfo.cs
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.csproj.CoreCompileInputs.cache
