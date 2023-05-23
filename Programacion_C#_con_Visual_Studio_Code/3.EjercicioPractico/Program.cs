@@ -8,11 +8,11 @@ namespace _3.EjercicioPractico
             string nombre, apellido, hobby;
             int edad;
 
-            Console.Write("Introduce tu nombre/s: ");
+            Console.Write("Introduce tu/s nombre/s: ");
             nombre = Console.ReadLine();
-            Console.Write("Introduce tu apellido/s: ");
+            Console.Write("Introduce tu/s apellido/s: ");
             apellido = Console.ReadLine();
-            Console.Write("Introduce tu hobby/s: ");
+            Console.Write("Introduce tu/s hobby/s: ");
             hobby = Console.ReadLine();
             Console.Write("Introduce tu edad: ");
             edad = Convert.ToInt32(Console.ReadLine());
