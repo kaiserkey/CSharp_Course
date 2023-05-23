@@ -9,7 +9,7 @@ namespace _2.MensajesEnPantalla
             Console.Write("Esto es un texto que se imprime en una linea ");
             Console.Write("y este es otro texto que se imprime en la misma linea");
 
-            Console.
+            Console.WriteLine("Esto es un texto que se imprime en una linea ");
         }
     }
 }
