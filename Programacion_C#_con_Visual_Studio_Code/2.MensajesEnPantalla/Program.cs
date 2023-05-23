@@ -13,6 +13,7 @@ namespace _2.MensajesEnPantalla
             Console.WriteLine("Y este es otro texto que se imprime en la linea de abajo");
 
             /* ReadLine */
+            Console.WriteLine("Introduce tu nombre: ");
             string datos = Console.ReadLine();
             Console.WriteLine("Los datos que has introducido son: " + datos);
         }
