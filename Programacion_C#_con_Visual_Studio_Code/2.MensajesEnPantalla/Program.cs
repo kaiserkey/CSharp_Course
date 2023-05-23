@@ -16,7 +16,7 @@ namespace _2.MensajesEnPantalla
             string datos = Console.ReadLine();
             Console.WriteLine("Los datos que has introducido son: " + datos);
 
-            /* INterpolacion de variables */
+            /* Interpolacion de variables */
             string nombre = "Juan";
             int edad = 18;
             Console.WriteLine($"Hola {nombre}, tienes {edad} años");
