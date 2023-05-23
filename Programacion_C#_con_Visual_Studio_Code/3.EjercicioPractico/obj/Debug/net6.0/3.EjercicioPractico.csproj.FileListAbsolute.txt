@@ -3,3 +3,13 @@
 /home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.AssemblyInfoInputs.cache
 /home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.AssemblyInfo.cs
 /home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.csproj.CoreCompileInputs.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/bin/Debug/net6.0/3.EjercicioPractico
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/bin/Debug/net6.0/3.EjercicioPractico.deps.json
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/bin/Debug/net6.0/3.EjercicioPractico.runtimeconfig.json
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/bin/Debug/net6.0/3.EjercicioPractico.dll
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/bin/Debug/net6.0/3.EjercicioPractico.pdb
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.dll
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/refint/3.EjercicioPractico.dll
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.pdb
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/3.EjercicioPractico.genruntimeconfig.cache
+/home/daniel/Codigo/CSharp/Programacion_C#_con_Visual_Studio_Code/3.EjercicioPractico/obj/Debug/net6.0/ref/3.EjercicioPractico.dll
