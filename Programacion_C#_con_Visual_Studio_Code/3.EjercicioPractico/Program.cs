@@ -18,8 +18,7 @@ namespace _3.EjercicioPractico
             edad = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("==========INFORMACION BASICA==========");
-            Console.WriteLine($"Nombre: {nombre}");
-            Console.WriteLine($"Apellido: {apellido}");
+            Console.WriteLine($"Nombre: {nombre} {apellido}");
             Console.WriteLine($"Edad: {edad}");
             Console.WriteLine($"Hobby: {hobby}");
             Console.WriteLine("=====================================");
